@@ -211,6 +211,120 @@
     </div>
 
     <!--Partie de Jeremy-->
+    <div class="section2010">
+        
+        <div class="decennie2010">
+          
+          <div class="imagesTotal">
+            
+              <img class="image2010 no1" src="https://i.imgur.com/t4CQyFW.png"alt="derriere">
+         
+              <img class="image2010 flipable no2" src="https://i.imgur.com/7BujTou.png" alt="millieu">
+      
+              <img class="image2010 flipable no3" src="https://i.imgur.com/gJ6a3iY.png" alt="devant">
+      
+            </div>
+            
+             <div class="texte2010">
+      
+                <div class="boite2010 no1">
+                  <h2>2010</h2>
+                  <p>Contribue à la définition de la Loi sur l’aménagement durable du territoire forestier et réalisation du projet Agriculture et climat : vers des fermes 0 carbone.</p>
+                </div>
+      
+                <div class="boite2010 no2">
+                  <h2>2012</h2>
+                  <p>Implication majeure au sein du mouvement Sortons le Québec du nucléaire et obtention de la fermeture de la centrale nucléaire Gentilly-2.</p>
+                </div>
+      
+                <div class="boite2010 no3">
+                  <h2>2013</h2>
+                  <p>
+      Lancement du projet Carcaj’où? pour sensibiliser le public et les communautés nordiques autochtones et non autochtones à la précarité de l’espèce.</p>
+                </div>
+      
+                <div class="boite2010 no4">
+                  <h2>2014</h2>
+                  <p>Campagne et pétition de 100 000 noms pour s’opposer à la construction d’un terminal pétrolier lié au projet Énergie Est au coeur de la pouponnière des bélugas du Saint-Laurent à Cacouna. Injonction obtenue par Me Michel Bélanger au nom de Nature Québec et 3 autres groupes pour stopper temporairement les travaux dans l’habitat du Béluga.
+      
+      Début de la campagne Nagoya + pour l’atteinte des objectifs de création des aires protégées.</p>
+                  </div>
+                <div class="boite2010 no5">
+                  <h2>2015</h2>
+                  <p>
+      Lancement du programme MVS (Milieux de vie en santé) qui démontre les bienfaits des îlots de fraîcheur sur la santé par des projets de verdissement des espaces urbains.
+      
+      Abandon par Transcanada de son terminal pétrolier à Cacouna suite à une mobilisation sans précédent. La Cour fédérale donne raison à Nature Québec et au CQDE en forçant le fédéral à protéger l’habitat de la Rainette faux-grillon de l’Ouest. Lancement du programme Milieux de vie en santé. Coordination de la Marche Action Climat qui réunit plus de 25 000 personnes à Québec.</p>
+                </div>
+      
+                <div class="boite2010 no6">
+                  <h2>2016</h2>
+                  <p>
+      Lancement de la campagne #FuturAnticosti contre les projets d’hydrocarbures sur l’île et organisation de la 1ère Grande Traversée, une marche inédite de 130 km sur Anticosti.</p>
+                </div>
+      
+                <div class="boite2010 no7">
+                  <h2>2017</h2>
+                  <p>Grande victoire avec l’abandon définitif du projet d’oléoduc Énergie Est.
+      
+      Nature Québec, l’Action Boréale et la SNAP obtiennent l’arrêt du projet de déplacer les derniers caribous de Val-d’Or au zoo de Saint-Félicien.
+      
+      Lancement de la coalition SOS mont Hereford contre un projet de ligne aérienne d’Hydro-Québec dans une aire protégée et de la coalition SOS port de Québec, contre le projet Beauport 2020. Lancement de la campagne NON aux forages contre les projets d’hydrocarbures sur le territoire québécois.</p>
+                  </div>
+      
+                <div class="boite2010 no8">
+                  <h2>2018</h2>
+                  <p>Retrait officiel des projets gaziers et pétroliers sur Anticosti. Aval de Québec et d’Ottawa pour soutenir la candidature de l’île au patrimoine mondial de l’UNESCO. Hydro-Québec accepte d’enfouir la ligne qui traversera le Mont-Hereford mais le projet est suspendu. Nature Québec, l’Action Boréale et Greenpeace lancent une campagne pour la sauvegarde des derniers caribous de Val-d’Or.
+      
+      Réalisation de ruelles vertes, de classes en plein air et d’oasis urbaines dans la région de Québec et extension de Milieux de vie en santé à Trois-Rivières, Victoriaville et Sherbrooke.</p>
+                </div> 
+        </div>
+          
+       </div>
+    
+    <div class="placeHolder"></div>
+<div class="wrapper2010">
+  <div class="fleurPrincipale">
+    <img src="https://i.imgur.com/zWrF4C8.png" alt="fleur4" class="bigGirl">
+  </div>
+
+  <div class="fleurSecondaire">
+    <div class="fs1">
+       <img src="https://i.imgur.com/zWrF4C8.png" alt="fleur4">>
+    </div>
+    <div class="fs2">
+              <img src="https://i.imgur.com/zWrF4C8.png" alt="fleur4">
+    </div>
+    <div class="fs3">
+      <img src="https://i.imgur.com/zWrF4C8.png" alt="fleur4">
+    </div>
+    <div class="fs4">
+       <img src="https://i.imgur.com/zWrF4C8.png" alt="fleur4">
+    </div>
+  </div>
+</div>
+<div class="fermeture">
+  <div class="texteFermeture">
+      
+      <h2>On ne s'arrête pas là!</h2>
+      <div class="boiteFermeture">
+        <p>Nous avons peut-être accomplie de grande chose jusqu'à présent grace à votre soutient, mais ils nous restent encore beaucoup de combat à mener et de cause à défendre afin de garder notre planète en santé.</p>
+      </div>  
+        <div class="boiteFermeture">
+        <p>En tant que première ONG québécoise d’envergure dédiée à la conservation des milieux naturels et de la biodiversité, nous faisons de notre  devoir de s'impliquer dans une multitude de projet environnementaux chaques années, afin de montrer l'explample et de trouver des solution à long terme pour restorer et protèger notre belle planète bleu. </p>
+      </div> 
+        
+      <div class="boiteFermeture">
+        <p>Tout ceci serait impossible sans le support généreux de nos partenaire et des gens comme vous qui donnent un peu de leur argent dur gagner pour la cause environnemental.</p>
+      </div> 
+
+        <div class="boiteFermeture">
+        <p>Un gros merci de toutes l'équipe de Nature Quebec à tous ceux qui on ou vont nous donnez leur soutient.</p>
+      </div> 
+ </div>
+ </div>
+
+ </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>

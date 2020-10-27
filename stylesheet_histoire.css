@@ -266,3 +266,345 @@
                   .eau-2-wd {
                     z-index: 1;
                   }
+
+                
+
+.texte2010{    
+  position:absolute;
+  left:5%;
+  top:100vh;
+  z-index:3;
+  
+}
+
+.boite2010{
+  width: 20vw;
+  color:white;
+  background-color: rgba(76, 87, 15, 0.8);
+  padding-top:4vh;
+  padding-bottom:4vh;
+  padding-left:2vw;
+  padding-right:2vw;
+  margin-bottom:4vh;
+  margin-top:4vh;
+  box-shadow: 3px 3px 7px #0f1b24;
+}
+.texte2010 h2{
+  bottom:5vh;
+  font-size:4vw;
+  position:relative;
+  font-family: noto-serif, serif; 
+  font-weight: 700;
+  font-style: normal;
+  
+}
+.texte2010 p{
+  font-size:1.2vw;
+  position:relative;
+  top:1vh;
+  font-family: noto-serif, serif; 
+  font-weight: 300;
+  font-style: normal;
+  
+}
+
+.section2010 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+  color: #fff;
+  overflow:hidden;
+  
+}
+.decennie2010{ 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.image2010{
+  position: absolute;
+  width:100%; 
+}
+.imagesTotal{
+  height:100vh; 
+  width:100vw;
+  position: relative; 
+  overflow:hidden;
+  
+}
+
+.image2010.no1{
+  width: 100vw;
+  height: 100vh;
+  position: absolute; 
+  top: 0;
+}
+
+
+.image2010.no3{
+  z-index:4;
+}
+
+.flipable{
+  position:absolute;
+  bottom:0;
+  left:0;
+  rotateX: 90deg;
+  transform-origin: bottom left;
+}
+
+
+.placeHolder {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  overflow:hidden;
+}
+.fermeture{ 
+  position:relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.fleurPrincipale{ 
+  width:100vw; 
+  height:100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.bigGirl {
+  transform:scale(1.5);
+  
+}
+
+.fleurSecondaire{ 
+  width:100%; 
+  height:100%;
+  transform:scale(1);
+  display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center ;
+    justify-content: center;
+  
+}
+.fleurSecondaire img{ 
+  width:100%; 
+  height:100%;
+  
+}
+
+.fleurSecondaire .fs1{ 
+  width:100%; 
+  height:100%;
+  transform:scale(0); 
+  
+}
+.fleurSecondaire .fs2{ 
+  width:100%; 
+  height:100%;
+  transform:scale(0); 
+  
+}
+.fleurSecondaire .fs3{ 
+  width:100%; 
+  height:100%;
+  transform:scale(0); 
+  
+}
+.fleurSecondaire .fs4{ 
+  width:100%; 
+  height:100%;
+  transform:scale(0); 
+  
+}
+
+.wrapper2010 {
+  width:100%; 
+  height:100%;
+  bottom:0;
+  left:0;
+  position: absolute; 
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transform: translateY(100%);
+  z-index:1;
+  
+}
+.texteFermeture{
+  position: absolute; 
+  text-align: center;
+  color:white;
+  margin-top:10vh;
+  line-height: 1.6;
+  width:100%; 
+  height:100%;
+  opacity: 0;
+  z-index:1;
+}
+
+.boiteFermeture{
+  margin: 15px 20vw 15px 20vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;  
+
+
+}
+
+.boiteFermeture p{
+  font-size:20px;
+  padding: 1vh 2vw 1vh 2vw;
+  text-shadow: 2px 2px 6px  black;
+  font-family: noto-serif, serif; 
+  font-weight: 300;
+  font-style: normal;
+  
+}
+.texteFermeture h2{
+  font-family: noto-serif, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:50px;
+  margin: 0px 20vw 0px 20vw;
+  
+}
+
+.placeHolder {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  overflow:hidden;
+}
+.fermeture{ 
+  position:relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.fleurPrincipale{ 
+  width:100vw; 
+  height:100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.bigGirl {
+  transform:scale(1.5);
+  
+}
+
+.fleurSecondaire{ 
+  width:100%; 
+  height:100%;
+  transform:scale(1);
+  display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center ;
+    justify-content: center;
+  
+}
+.fleurSecondaire img{ 
+  width:100%; 
+  height:100%;
+  
+}
+
+.fleurSecondaire .fs1{ 
+  width:100%; 
+  height:100%;
+  transform:scale(0); 
+  
+}
+.fleurSecondaire .fs2{ 
+  width:100%; 
+  height:100%;
+  transform:scale(0); 
+  
+}
+.fleurSecondaire .fs3{ 
+  width:100%; 
+  height:100%;
+  transform:scale(0); 
+  
+}
+.fleurSecondaire .fs4{ 
+  width:100%; 
+  height:100%;
+  transform:scale(0); 
+  
+}
+
+.wrapper {
+  width:100%; 
+  height:100%;
+  bottom:0;
+  left:0;
+  position: absolute; 
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transform: translateY(100%);
+  z-index:1;
+  
+}
+.texteFermeture{
+  position: absolute; 
+  text-align: center;
+  color:white;
+  margin-top:10vh;
+  line-height: 1.6;
+  width:100%; 
+  height:100%;
+  opacity: 0;
+  z-index:1;
+}
+
+.boiteFermeture{
+  margin: 15px 20vw 15px 20vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;  
+
+
+}
+
+.boiteFermeture p{
+  font-size:20px;
+  padding: 1vh 2vw 1vh 2vw;
+  text-shadow: 2px 2px 6px  black;
+  font-family: noto-serif, serif; 
+  font-weight: 300;
+  font-style: normal;
+  
+}
+.texteFermeture h2{
+  font-family: noto-serif, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:50px;
+  margin: 0px 20vw 0px 20vw;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
