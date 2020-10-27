@@ -7,6 +7,7 @@
         <title>NQ_page_histoire_total_ED_V2</title>
     </head>
     <body>   
+      <!--Partie d'Émile-->
         <div class="ouverture">
             <div class="wrapper">
               <div class="fleurTotale">
@@ -109,9 +110,110 @@
               </div>
           </div>
         </div>
+<!--Partie de William-->
+        <div class="wrapper1990">
+        <img src="https://i.imgur.com/SWrtxUO.jpg" alt="ciel" class="ciel-1-wd">
+        <img src="https://i.imgur.com/jAWfFYq.png" alt="terre" class="terre-1-wd">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+        <div class="texte1990">
+            <div class="box1990">
+                <h2>1990</h2>
+                <p>Franc-Nord devient Franc-Vert pour indiquer plus clairement son engagement écologique.</p>
+              </div>
+              <div class="box1990">
+                <h2>1992</h2>
+                <p>Participation au développement de la Politique québécoise sur les espèces menacées ou vulnérables.</p>
+              </div>
+              <div class="box1990">
+                <h2>1993</h2>
+                <p>Production par l’UQCN du Guide des milieux humides du Québec : des sites à découvrir et à protéger.</p>
+              </div>
+              <div class="box1990">
+                <h2>1994</h2>
+                <p>Succès de la coalition formée par l’Association des biologistes du Québec (ABQ), la WWF et l’UQCN pour empêcher la privatisation de la moitié des parcs provinciaux.</p>
+              </div>
+              <div class="box1990">
+                <h2>1995</h2>
+                <p>Lancement de l’Écoroute, dont l’objectif est de diffuser de l’information sur l’environnement et de répondre aux internautes.
+    
+                    À la suite des pressions exercées par l’UQCN et d’autres organismes, le Règlement sur l’analyse et l’évaluation environnementale est appliqué aux grands projets industriels.</p>
+              </div>
+              <div class="box1990">
+                <h2>1996</h2>
+                <p>Adoption de la politique énergétique à la suite des consultations de l’ensemble des acteurs, dont l’UQCN.</p>
+              </div>
+              <div class="box1990">
+                <h2>1997</h2>
+                <p>Formation de la Coalition pour la forêt vierge nordique afin de promouvoir une meilleure gestion de la forêt boréale et la création d’aires protégées.</p>
+              </div>
+              <div class="box1990">
+                <h2>1999</h2>
+                <p>Fin de la publication du magazine Franc-Vert qui renaîtra en format web.</p>
+              </div>
+        </div>
+
+        <img src="https://i.imgur.com/22u1LRn.png" alt="eau" class="eau-1-wd">
+    </div>
+    
+    <div class="wrapper2000">
+        <img src="https://i.imgur.com/KMttUGa.jpg" alt="ciel" class="ciel-2-wd">
+        <img src="https://i.imgur.com/vdJ5eqH.png" alt="terre" class="eau-2-wd">
+        <img src="https://i.imgur.com/9dv1wja.png" alt="montagne-part-1" class="montagne-part-1-wd">
+        <img src="https://i.imgur.com/krolzje.png" alt="montagne-part-2" class="montagne-part-2-wd">
+
+        <div class="texte2000">
+            <div class="box2000">
+                <h2>2000</h2>
+                <p>Mise en place de la Stratégie québécoise sur les aires protégées au terme d’une campagne sur les espaces en danger menée par le World Wildlife Fund (WWF), avec le soutien de l’UQCN.</p>
+              </div>
+              <div class="box2000">
+                <h2>2001</h2>
+                <p>L’UQCN fonde l’initiative Aux arbres citoyens! et devient mandataire au Québec du programme Zones importantes pour la conservation des oiseaux (ZICO).</p>
+              </div>
+              <div class="box2000">
+                <h2>2002</h2>
+                <p>
+                  Après des années d’interventions de l’UQCN, moratoire sur la production porcine et dépôt de la Politique nationale de l’eau par le gouvernement du Québec.</p>
+              </div>
+              <div class="box2000">
+                <h2>2003</h2>
+                <p>Formation de la commission Coulombe sur l’état de la forêt, en réponse aux pressions exercées par l’UQCN et d’autres organismes.</p>
+              </div>
+              <div class="box2000">
+                <h2>2004</h2>
+                <p>L’UQCN est le seul groupe environnemental présent au Comité national de rétablissement du caribou forestier. Relance des Ateliers sur la conservation des milieux naturels.</p>
+              </div>
+              <div class="box2000">
+                <h2>2005</h2>
+                <p>L’Union québécoise pour la conservation de la nature (UQCN) devient Nature Québec.</p>
+              </div>
+              <div class="box2000">
+                <h2>2006</h2>
+                <p>Nature Québec a 25 ans. Fondation de la coalition SOS Parc Orford, laquelle vise à protéger l’intégrité du parc. Dépôt à l’Assemblée nationale la pétition On dort comme une bûche!, qui recueille un nombre record de 185 000 signatures.</p>
+              </div>
+              <div class="box2000">
+                <h2>2007</h2>
+                <p>Siège au comité directeur du Sommet sur la forêt à Québec et participation à la Commission sur l’avenir de l’agriculture et de l’agroalimentaire québécois. Nature Québec condamne la vente de terrains adjacents au parc national des Îles-de-Boucherville à des fins de développement résidentiel.</p>
+              </div>
+              <div class="box2000">
+                <h2>2008</h2>
+                <p>
+                  Publication d’une étude sur l’identification d’aires protégées permettant le maintien du caribou forestier.
+                  
+                  Lancement d’une campagne sur les risques d’un nouveau mode de gestion des débits d’eau à la sortie des Grands-Lacs.</p>
+              </div>
+              <div class="box2000">
+                <h2>2009</h2>
+                <p>
+                  Réalisation d’une étude importante étude sur le suivi de la biodiversité dans les aires protégées et consolidation du programme ZICO.</p>
+              </div>
+        </div>
+    </div>
+
+    <!--Partie de Jeremy-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
     <script src="script_histoire.js"></script>
 </body> 
 </html>

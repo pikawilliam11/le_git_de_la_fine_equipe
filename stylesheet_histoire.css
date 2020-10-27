@@ -156,3 +156,113 @@
                 bottom:0;
                 left:0;
                 }
+                
+                .wrapper1990 {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .ciel-1-wd, .eau-1-wd, .terre-1-wd {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                }
+                
+                .texte1990{    
+                    position:absolute;
+                    right:10%;
+                    top:100vh;
+                  }
+                
+                  .box1990{
+                    width: 20vw;
+                    opacity:0.8;
+                    color:white;
+                    background-color: #192D3C;
+                    padding-top:4vh;
+                    padding-bottom:4vh;
+                    padding-left:2vw;
+                    padding-right:2vw;
+                    margin-bottom:4vh;
+                    margin-top:4vh;
+                    
+                  }
+                
+                  .texte1990 h2{
+                    bottom:5vh;
+                    font-size:4vw;
+                    position:relative;
+                    font-family: noto-serif, serif; 
+                    font-weight: 700;
+                    font-style: normal;
+                  }
+                
+                  .texte1990 p{
+                    font-size:1.2vw;
+                    position:relative;
+                    top:1vh;
+                    font-family: noto-serif, serif; 
+                    font-weight: 300;
+                    font-style: normal;
+                  }
+
+                .wrapper2000 {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .ciel-2-wd, .eau-2-wd, .montagne-part-1-wd, .montagne-part-2-wd {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                }
+                
+                .texte2000{    
+                    position:absolute;
+                    right:25%;
+                    top:100vh;
+                  }
+                
+                  .box2000{
+                    width: 20vw;
+                    opacity:0.8;
+                    color:white;
+                    background-color: #192D3C;
+                    padding-top:4vh;
+                    padding-bottom:4vh;
+                    padding-left:2vw;
+                    padding-right:2vw;
+                    margin-bottom:4vh;
+                    margin-top:4vh;
+                    
+                  }
+                
+                  .texte2000 h2{
+                    bottom:5vh;
+                    font-size:4vw;
+                    position:relative;
+                    font-family: noto-serif, serif; 
+                    font-weight: 700;
+                    font-style: normal;
+                  }
+                
+                  .texte2000 p{
+                    font-size:1.2vw;
+                    position:relative;
+                    top:1vh;
+                    font-family: noto-serif, serif; 
+                    font-weight: 300;
+                    font-style: normal;
+                  }
+                
+                  .eau-2-wd {
+                    z-index: 1;
+                  }

@@ -1,4 +1,4 @@
-
+//Animation d'Émile
         gsap.registerPlugin(ScrollTrigger);
 
         gsap.timeline({
@@ -130,3 +130,91 @@
         .to(".texte1980", {  
             y:"-122%",
         }, '>') 
+
+//Animation de William
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.timeline({
+    scrollTrigger:{
+    markers: true,
+    pin: true,
+    scrub: 1,
+    start: 'center center',
+    end: 'bottom center',
+    toggleActions: 'play complete reverse reset',
+    trigger: ".wrapper",
+      },
+  })
+
+  .from(".eau-1", {
+    y:"100%",
+    duration: 1.5,
+  })
+
+  .from(".terre-1", {
+    y:"100%",
+    duration: 5.0,
+  },'< 2')
+
+  gsap.timeline({       
+    scrollTrigger: {
+      trigger: '.wrapper',
+      scrub: 1,
+      pin: true,
+      markers: true,
+      start: '60% center',
+      end: '200% center',
+      toggleActions: 'play complete reverse reset',
+    },
+  })
+  .to(".texte1990", {  
+      y:"-120%",
+    })
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.timeline({
+        scrollTrigger:{
+        markers: true,
+        pin: true,
+        scrub: 1,
+        start: 'center center',
+        end: 'bottom center',
+        toggleActions: 'play complete reverse reset',
+        trigger: ".wrapper",
+          },
+      })
+    
+      .from(".eau-2-wd", {
+        y:"100%",
+        duration: 1.5,
+      })
+    
+      .from(".montagne-part-1-wd", {
+        y:"100%",
+        duration: 1.5,
+      },'< 2')
+    
+      .from(".montagne-part-2-wd", {
+        y:"100%",
+        duration: 1.5,
+      },'< 2')
+    
+      gsap.timeline({       
+        scrollTrigger: {
+          trigger: '.wrapper',
+          scrub: 1,
+          pin: true,
+          markers: true,
+          start: '60% center',
+          end: '200% center',
+          toggleActions: 'play complete reverse reset',
+        },
+      })
+      .to(".texte2000", {  
+          y:"-120%",
+        })
+
+//Animation de Jeremy
+
