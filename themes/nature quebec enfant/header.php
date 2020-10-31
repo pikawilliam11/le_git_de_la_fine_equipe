@@ -33,17 +33,19 @@
 >
 
 <header>
-	<h1>
-		<a href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home"><?php bloginfo( 'name' ); // Affiche le nom du site ?></a>
-	</h1>
 
-	<nav>
-		<?php 
+	<nav class="navbarColor">
+		
+		<img src="http://127.0.0.1/naturequebec/wp-content/uploads/2020/10/nq.png" alt="logo" class="headerLogo">
+  			<div class="btnWrapper">
+    			<a href="#" class="btnDonation">JE DONNE</a>
+  			</div>
+	</nav>
+
+	<?php 
 			// Affiche un menu si dans le tableau de bord un menu à été défini dans cet emplacement
 			wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
 		?>
-
-	</nav>
 
 	<?php 
 		// Affiche la description de site se trouvant dans "General Settings" dans l'admin Wordpress
