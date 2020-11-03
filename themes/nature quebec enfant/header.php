@@ -49,7 +49,7 @@
 
 	<?php 
 		// Affiche la description de site se trouvant dans "General Settings" dans l'admin Wordpress
-		bloginfo( 'description' ); 
+		//bloginfo( 'description' ); 
 	?>
 </header>
 
