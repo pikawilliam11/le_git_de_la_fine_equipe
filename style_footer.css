@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+  }
+  
+  body{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 130px;
+    background-color:#707070;
+    display: flex;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+  }
+  
+  .media {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    right: 35%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    
+  }
+
+  .icone {
+    width: 50%;
+    height: 18%;
+    position: relative;
+    top: 30%;
+    
+  }
+  
+  .adresse {
+    font-family: Azo Sans, Arial, regular;
+    font-size: 16px;
+    width: 200px;
+    top: 19%;
+    left:24%;
+    position: absolute;
+  }
+  
+  .copyright {
+    font-family: Azo Sans, Arial, light;
+    font-size: 13px;
+    position: absolute;
+    bottom: 6%;
+    left: 15%;
+  }
+  
+  .donner {
+    font-family: Azo Sans, Arial, bold;
+    font-size: 28px;
+    background-color: #157F3D;
+    color: white;
+    height: 60px;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+   .flavorText {
+    font-family: Azo Sans, Arial, light;
+    font-size: 13px;
+    position: absolute;
+    bottom: 6%;
+    right: 15%;
+    
+  }
+  
+  .logo {
+    background-color: hotpink;
+    width: 8%;
+    height: 40%;
+    position: absolute;
+    bottom: 35%;
+    left: 15%;
+  }
