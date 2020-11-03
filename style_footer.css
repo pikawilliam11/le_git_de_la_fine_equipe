@@ -13,8 +13,8 @@
     background-color:#707070;
     display: flex;
     color: white;
-    position: absolute;
-    bottom: 0%;
+    position: relative;
+    bottom: 0;
   }
   
   .media {
@@ -42,6 +42,7 @@
     width: 200px;
     top: 19%;
     left:24%;
+    bottom: 6%;
     position: absolute;
   }
   
@@ -60,7 +61,7 @@
     color: white;
     height: 60px;
     position: absolute;
-    top: 20%;
+    bottom: 6%;
     right: 15%;
     padding-left:40px;
     padding-right:40px;
