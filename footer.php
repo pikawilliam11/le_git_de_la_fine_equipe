@@ -4,19 +4,19 @@
 	/*-----------------------------------------------------------------------------------*/
 ?>
 
-
+	<?php 
+      wp_enqueue_style( "style_footer.css", get_stylesheet_directory_uri(). '/style_footer.css', array(), time(), false );
+    ?>
 
 <!DOCTYPE html>
 
 <html lang="en">
     <head>
     <link rel="stylesheet" href="https://use.typekit.net/rcw0dji.css">
-    <link rel="stylesheet" href="./style_footer.css">
     <meta charset="UTF-8">
     </head>
 	
 	<body>  
-	<footer>
 	<div class="footer">
 		<img src="nq_dark theme.png" alt="logo_nature_quebec" class="logo_footer">
 		<p class="copyright"></p>
@@ -27,16 +27,14 @@
 			<img src="iconfinder_Circled_Twitter_svg_blanc.svg" alt="logo_instagram" class="instagram icone">
 			<img src="iconfinder_Circled_Youtube_svg_blanc.svg" alt="logo_youtube" class="youtube icone">
 		</div>
-	</div>
+	
 		
-	<button class="donner">JE DONNE</button>
+			<button class="donner">JE DONNE</button>
 		
 		<div class="flavorText">
-    Une réalisation de LA FINE ÉQUIPE™
-  </div>
-
-	</div>
-	</footer>
+    		Une réalisation de LA FINE ÉQUIPE™
+  		</div>
+  	</div>
 	</body> 
 </html>
 

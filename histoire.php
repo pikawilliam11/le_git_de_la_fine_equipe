@@ -1,23 +1,39 @@
+<?php 
+  /*Template Name: Histoire*/
+?>
+
+<?php
+
+// Appel le fichier header.php
+get_header(); 
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
     <link rel="stylesheet" href="https://use.typekit.net/rcw0dji.css">
-    <link rel="stylesheet" href="stylesheet_histoire.css">
+    <!--<link rel="stylesheet" href="stylesheet_histoire.css">-->
+    <link rel="stylesheet" hreft="./style.css">
     <meta charset="UTF-8">
         <title>NQ_page_histoire_total_ED_V2</title>
     </head>
     <body>   
+
+    <?php 
+      wp_enqueue_style( "stylesheet_histoire.css", get_stylesheet_directory_uri(). '/stylesheet_histoire.css', array(), time(), false );
+      wp_enqueue_script( "script_histoire.js", get_stylesheet_directory_uri() . '/script_histoire.js', array(), ”, false );
+    ?>
+
       <!--Partie d'Émile-->
         <div class="ouverture">
             <div class="wrapper">
               <div class="fleurTotale">
-                <img class="fleur fno4" src="https://i.imgur.com/zWrF4C8.png" alt="fleur4">
+                <img class="fleur fno4" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/fleur4.png" alt="fleur4">
         
-                <img class="fleur fno3" src="https://i.imgur.com/Xty2Q5c.png" alt="fleur3">
+                <img class="fleur fno3" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/fleur3.png" alt="fleur3">
         
-                <img class="fleur fno2" src="https://i.imgur.com/UGlHWRr.png" alt="fleur2">
+                <img class="fleur fno2" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/fleur2.png" alt="fleur2">
         
-                <img class="fleur fno1" src="https://i.imgur.com/51mg0Xz.png" alt="fleur1">
+                <img class="fleur fno1" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/fleur1.png" alt="fleur1">
              </div>
            </div>
             
@@ -47,23 +63,23 @@
             
             <div class="imagesTotal">
               
-                <img class="image1980 no1" src="https://i.imgur.com/BACP2eC.png" alt="ciel">
+                <img class="image1980 no1" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/ciel.png" alt="ciel">
            
-                <img class="image1980 pasCiel no1.1" src="https://i.imgur.com/fgrbiNV.png" alt="eau_fond">
+                <img class="image1980 pasCiel no1.1" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/eau_fond.png" alt="eau_fond">
         
-                <img class="image1980 pasCiel no2" src="https://imgur.com/OPG26MT.png" alt="eau_montagne_background">
+                <img class="image1980 pasCiel no2" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/eau_montagne_background.png" alt="eau_montagne_background">
         
-                <img class="image1980 pasCiel no3" src="https://imgur.com/ABBiwMp.png" alt="montagne_background">
+                <img class="image1980 pasCiel no3" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/montagne_background.png" alt="montagne_background">
         
-                <img class="image1980 pasCiel no4" src="https://i.imgur.com/pH6O0qX.png" alt="eau_montagne_left">
+                <img class="image1980 pasCiel no4" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/eau_montagne_left.png" alt="eau_montagne_left">
         
-                <img class="image1980 pasCiel no5" src="https://i.imgur.com/71tgbRB.png" alt="montagne_left">
+                <img class="image1980 pasCiel no5" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/eau_montagne_left.png" alt="montagne_left">
         
-                <img class="image1980 pasCiel no6" src="https://i.imgur.com/d8CIkiN.png" alt="eau_montagne_front">
+                <img class="image1980 pasCiel no6" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/eau_montagne_front.png" alt="eau_montagne_front">
               
-                <img class="image1980 pasCiel no7 " src="https://i.imgur.com/3wHDiXx.png" alt="montagne_front">
+                <img class="image1980 pasCiel no7 " src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/montagne_avant_plan4.png" alt="montagne_front">
               
-                 <img class="image1980 pasCiel no8" src="https://i.imgur.com/GFTR9HH.png" alt="eau_top"> 
+                 <img class="image1980 pasCiel no8" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/Eau_top.png" alt="eau_top"> 
               
              </div>
               
@@ -112,8 +128,8 @@
         </div>
 <!--Partie de William-->
         <div class="wrapper1990">
-        <img src="https://i.imgur.com/SWrtxUO.jpg" alt="ciel" class="ciel-1-wd">
-        <img src="https://i.imgur.com/jAWfFYq.png" alt="terre" class="terre-1-wd">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/gsap-1-ciel.jpg" alt="ciel" class="ciel-1-wd">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/gsap-1-terre.png" alt="terre" class="terre-1-wd">
 
         <div class="texte1990">
             <div class="box1990">
@@ -152,14 +168,14 @@
               </div>
         </div>
 
-        <img src="https://i.imgur.com/22u1LRn.png" alt="eau" class="eau-1-wd">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/gsap-1-eau.png" alt="eau" class="eau-1-wd">
     </div>
     
     <div class="wrapper2000">
-        <img src="https://i.imgur.com/KMttUGa.jpg" alt="ciel" class="ciel-2-wd">
-        <img src="https://i.imgur.com/vdJ5eqH.png" alt="terre" class="eau-2-wd">
-        <img src="https://i.imgur.com/9dv1wja.png" alt="montagne-part-1" class="montagne-part-1-wd">
-        <img src="https://i.imgur.com/krolzje.png" alt="montagne-part-2" class="montagne-part-2-wd">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/gsap-2-ciel.jpg" alt="ciel" class="ciel-2-wd">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/gsap-2-eau.png" alt="terre" class="eau-2-wd">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/gsap-2-montagne-1.png" alt="montagne-part-1" class="montagne-part-1-wd">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/gsap-2-montagne-2.png" alt="montagne-part-2" class="montagne-part-2-wd">
 
         <div class="texte2000">
             <div class="box2000">
@@ -217,11 +233,11 @@
           
           <div class="imagesTotal">
             
-              <img class="image2010 no1" src="https://i.imgur.com/t4CQyFW.png"alt="derriere">
+              <img class="image2010 no1" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/derriere.png"alt="derriere">
          
-              <img class="image2010 flipable no2" src="https://i.imgur.com/7BujTou.png" alt="millieu">
+              <img class="image2010 flipable no2" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/millieu.png" alt="millieu">
       
-              <img class="image2010 flipable no3" src="https://i.imgur.com/gJ6a3iY.png" alt="devant">
+              <img class="image2010 flipable no3" src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/devant.png" alt="devant">
       
             </div>
             
@@ -285,21 +301,21 @@
     <div class="placeHolder"></div>
 <div class="wrapper2010">
   <div class="fleurPrincipale">
-    <img src="https://i.imgur.com/zWrF4C8.png" alt="fleur4" class="bigGirl">
+    <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/fleur4.png" alt="fleur4" class="bigGirl">
   </div>
 
   <div class="fleurSecondaire">
     <div class="fs1">
-       <img src="https://i.imgur.com/zWrF4C8.png" alt="fleur4">>
+       <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/fleur4.png" alt="fleur4">>
     </div>
     <div class="fs2">
-              <img src="https://i.imgur.com/zWrF4C8.png" alt="fleur4">
+              <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/fleur4.png" alt="fleur4">
     </div>
     <div class="fs3">
-      <img src="https://i.imgur.com/zWrF4C8.png" alt="fleur4">
+      <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/fleur4.png" alt="fleur4">
     </div>
     <div class="fs4">
-       <img src="https://i.imgur.com/zWrF4C8.png" alt="fleur4">
+       <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/10/fleur4.png" alt="fleur4">
     </div>
   </div>
 </div>
@@ -330,4 +346,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
     <script src="script_histoire.js"></script>
 </body> 
+
+<?php
+ //Appel le fichier footer.php
+get_footer(); ?>
+
 </html>

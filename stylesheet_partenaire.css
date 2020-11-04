@@ -1,0 +1,323 @@
+html,
+body {
+  margin:0;
+  /*background-color: #E7E3E0;*/
+}
+
+.banniere{
+  position:relative;
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+  justify-content:center;
+  display:flex;
+  
+}
+.titrePage{
+  position:absolute;
+  z-index:1;
+  color:white;
+  font-size: 60px;
+  font-family: azo sans; 
+  font-weight: 600;
+  font-style: normal;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+  top:45%;
+  transform:translateY(-55%); 
+}
+.blocTexte{
+  position: absolute;
+  top:70%;
+  transform:translateY(-50%); 
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  color:white;
+  background-color: rgba(9, 23, 29, 0.7);
+  box-shadow: 3px 3px 7px #0f1b24;
+  align-items:center;
+}
+.blocTexte p{
+  max-width: 700px;
+  position:relative;
+  font-size:18px;
+  font-family: azo sans; 
+  font-weight: 400;
+  font-style: normal;
+  margin-right:20px;
+  top:5px;
+}
+.devenirMembre{
+  font-size:18px;
+  font-family: azo sans; 
+  font-weight: 600;
+  font-style: normal;
+  position:relative;
+  width: 200px;
+  height:50px;
+  margin-left:20px;
+  color:white;
+  border: 4px solid white;
+  background: none;
+}
+.devenirMembre:hover {
+  background-color: rgba(255, 255, 255, 0.2); 
+  border: 4px solid white;
+}
+.carousel-inner {
+  width: 100%;
+  height: 40%;
+  background: #D3CECB;
+  
+}
+
+.carousel-inner img {
+  width: 80%;
+  max-width:250px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin:5vh 0vw 5vh 0vw;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+}
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+.col-3{
+  display: flex;
+  justify-content: center;
+  margin:0vh -10vw 0vh -10vw;
+  
+}
+.col-3 img{
+  padding:10px 10px 10px 10px;
+}
+
+.carousel-indicators{
+  bottom:-10px;
+}
+
+.organismesAffiliees{
+  position: relative;
+  width: 100vw;
+  top:50px;
+  height: 200vh;
+}
+
+.listeOrganismesTotale{
+  position: relative;
+  width: 100vw; 
+  font-family: azo sans; 
+  font-weight: 500;
+  font-style: normal;
+  margin:10px 0px 10px 0px;
+  display: flex;
+  background-color: #D3CECB;
+}
+
+.fondListe{
+  width: 100vw; 
+  height: 100vh;
+  display: flex;
+  position:absolute;
+  z-index: -2;
+  
+}
+.pin-spacer .fondListe img{
+  object-fit: cover;
+  z-index: -2;
+  width: 100%;
+}
+
+.listeOrganismes{
+  width: 25vw; 
+  background-color:rgba(24, 30, 38, 0.7);
+  color:white;
+  right:0;
+  padding:40px;
+  margin:5vw;
+  position: absolute;
+  z-index:-1;
+}
+.listeOrganismes li{
+  margin-top:10px;
+}
+.texteOrganisme{
+  position: absolute;
+  z-index:100;
+  background-color:rgba(24, 30, 38, 0.7);
+  color:white;
+  width:30vw;
+  text-align:center;
+  top:20vh;
+  left:25vw;
+}
+.sousTitre{
+  position: relative;
+  width: 100%;
+  text-align:center;
+  font-size:40px;
+  font-family: azo sans; 
+  font-weight: 600;
+  font-style: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin:30px 0vw 30px 0vw;
+}
+.blocTexteListe{
+  width: 100%;
+  margin:30px 0vw 30px 0vw;
+  padding:5px;
+}
+.blocTexteListe p{
+  position: relative;
+  font-size:18px;
+  font-family: azo sans; 
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .banniere{
+  position:relative;
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+  display:flex;
+  
+}
+.titrePage{
+  font-size: 40px;
+  top:52%;
+  transform:translateY(-48%); 
+  margin-left:10px;
+  margin-right:10px;
+}
+.blocTexte p{
+  max-width: 80%;
+  position:relative;
+  font-size:12px;
+  margin-left:10px;
+  top:5px;
+  text-align:center;
+}
+.devenirMembre{
+  font-size:18px;
+  position:absolute;
+  width: 200px;
+  height:40px;
+  top:120%;
+  
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  display:none;
+}
+
+.listeOrganismes{
+  width: 50vw; 
+  padding:20px;
+  font-size:14px;
+  z-index: -1;
+}
+.texteOrganisme{
+  width:35vw;
+  left:5vw;
+  z-index:100;
+}
+.sousTitre{
+  font-size:25px;
+  margin:15px 0vw 15px 0vw;
+}
+.blocTexteListe{
+  margin:15px 0vw 15px 0vw;
+}
+.blocTexteListe p{
+  position: relative;
+  font-size:14px;
+}
+  
+}
+
+
+@media screen and (max-width: 375px) {
+  .banniere{
+  position:relative;
+  width: 100vw;
+  height: 70vh;
+}
+.titrePage{
+  font-size: 30px;
+  margin-left:10px;
+  margin-right:10px;
+}
+.blocTexte{
+  width: 100vw;
+  position:absolute;
+  font-size:12px;
+  text-align:center;
+  top:60%;
+}
+.blocTexte p{
+  max-width: 80%;
+  position:relative;
+  font-size:12px;
+  margin-left:10px;
+  top:5px;
+  text-align:center;
+}
+.devenirMembre{
+  font-size:18px;
+  position:absolute;
+  width: 200px;
+  height:40px;
+  top:140%; 
+  color:white;
+  border: 4px solid white;
+  background-color: #285073;
+}
+.devenirMembre:hover {
+  background-color: #617A90; 
+  border: 4px solid white;
+} 
+.carousel-inner {
+  height: 30vh;
+  align-items: center;
+  display: flex;
+}
+.carousel-inner img {
+  width: 100%;
+  
+}
+.listeOrganismes{
+  width: 70vw; 
+  right:15vw;
+  margin:0;
+  padding:20px;
+  font-size:14px;
+  top:130px;
+  z-index:-1;
+  
+}
+.texteOrganisme{
+  width:100vw;
+  height:130px;
+  left:0vw;
+  position:absolute;
+  top:0;
+  background-color:rgba(24, 30, 38, 1);
+  z-index:100;
+}
+.sousTitre{
+  font-size:20px;
+  margin:15px 0vw 15px 0vw;
+}
+.blocTexteListe{
+  margin:15px 0vw 15px 0vw;
+}
+.blocTexteListe p{
+  position: relative;
+  font-size:12px;
+}
+
+  
+}
