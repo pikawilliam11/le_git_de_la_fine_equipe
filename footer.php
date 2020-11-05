@@ -17,24 +17,43 @@
     </head>
 	
 	<body>  
+	<footer>
 	<div class="footer">
-		<img src="nq_dark theme.png" alt="logo_nature_quebec" class="logo_footer">
-		<p class="copyright"></p>
-		<p class="adresse"></p>
-		<div class="media">
-			<img src="iconfinder_Circled_Facebook_svg_blanc.svg" alt="logo_facebook" class="facebook icone">
-			<img src="iconfinder_Circled_Instagram_svg_blanc.svg" alt="logo_twitter" class="twitter icone">
-			<img src="iconfinder_Circled_Twitter_svg_blanc.svg" alt="logo_instagram" class="instagram icone">
-			<img src="iconfinder_Circled_Youtube_svg_blanc.svg" alt="logo_youtube" class="youtube icone">
-		</div>
-	
 		
-			<button class="donner">JE DONNE</button>
+		<div class="combo">
+		  <div class="adresse">
+       870, avenue De Salaberry Bureau 207 Québec, Qc G1R 2T9
+       <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/nq.png" alt="logo_nature_quebec" class="logo">
+      </div>
+		  <div class="copyright">
+        Nature Québec © 2020 Copyright - Tous droits réservés
+      </div> 
+    </div>
+    
+    <div class="media">
+			<a href="https://www.facebook.com/naturequebec/">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/facebook-1.png" alt="logo_facebook" class="facebook icone">
+			</a>
+      <a href="https://twitter.com/NatureQuebec?hl=fr-ca">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/twitter-1.png" alt="logo_twitter" class="twitter icone">
+			</a>
+      <a href="https://www.instagram.com/naturequebec/">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/instagrgam-1.png" alt="logo_instagram" class="instagram icone">
+			<a href="https://www.youtube.com/user/NatureQuebec">
+        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/youtube.png" alt="logo_youtube" class="youtube icone">
+      </a>
+		</div>
+		<button class="donner">JE DONNE</button>
 		
 		<div class="flavorText">
     		Une réalisation de LA FINE ÉQUIPE™
   		</div>
-  	</div>
+	</div>
+		
+	
+
+	</div>
+	</footer>
 	</body> 
 </html>
 

@@ -1,86 +1,202 @@
 *{
-    margin: 0;
-  }
-  
-  body{
-    width: 100%;
-    height: 100%;
-  }
-  
-  .footer {
-    width: 100%;
-    height: 130px;
-    background-color:#707070;
-    display: flex;
-    color: white;
-    bottom: 0;
-  }
-  
-  .media {
-    width: 20%;
-    height: 130px;
-    position: absolute;
-    right: 35%;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    justify-content: center;
-    
-  }
+  margin: 0;
+}
 
-  .icone {
-    width: 50%;
-    height: 18%;
-    position: relative;
-    top: 30%;
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 130px;
+  background-color:#080D1E;
+  display: flex;
+  color: white;
+  position: relative;
+  bottom: 0;
+  flex-wrap: nowrap;
+}
+
+.media {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  right: 40%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: center;
+  align-content: center;
+}
+
+.adresse {
+  font-family: Azo Sans, Arial, regular;
+  font-size: 16px;
+  width: 200px;
+  top: 30%;
+  left: 50%;
+  position: absolute;
+}
+.combo {
+  height: 100%;
+  width: 20%;
+  left: 10%;
+  position: absolute;
+  display: flex;
+}
+
+.copyright {
+  font-family: Azo Sans, Arial, light;
+  font-size: 13px;
+  position: absolute;
+  width: 200%;
+  bottom: 6%;
+  left: 15%;
+
+}
+
+.donner {
+  font-family: Azo Sans, Arial, bold;
+  font-size: 28px;
+  background-color: #157F3D;
+  color: white;
+  height: 60px;
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+ .flavorText {
+  font-family: Azo Sans, Arial, light;
+  font-size: 13px;
+  position: absolute;
+  bottom: 6%;
+  right: 15%;
+  
+}
+
+
+ .logo {
+ height: 100%;
+ position: absolute; 
+ right: 110%;
+ bottom: 10%;
+}
+
+@media screen and (max-width: 1195px) {
+
+  
+.media {
+  width: 35%;
+  height: 100%;
+  right: 30%;
+  transform: scale(0.8);
+}
+
+.adresse {
+  top: 30%;
+  left: 50%;
+  position: absolute;
+}
+.combo {
+  height: 100%;
+  width: 20%;
+  left: 10%;
+  transform: scale(0.8);
+}
+
+.copyright {
+  bottom: -2%;
+  left: -40%;
+  width:250%;
+
+}
+
+.donner {
+  height: 60px;
+  top: 30%;
+  right: 10%;
+  transform: scale(0.8);
+}
+
+ .flavorText {
+  bottom: 6%;
+  right: 10%;
+  transform: scale(0.8);
+  
+}
+
+
+ .logo {
+ right: 110%;
+ bottom: 10%;
+ 
+}
+  @media screen and (max-width: 779px) {
+
+   
+    .footer {
+      height: 180px;
+    }
     
+    .media {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  transform: scale(0.8);
+}
+
+.adresse {
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-55%, 50%);
+}
+.combo {
+  height: 100%;
+  width: 20%;
+  left: 10%;
+  position: absolute;
+  display: flex;
+  transform: scale(0.8);
+}
+
+.copyright {
+  position: absolute;
+  width: 200%;
+  bottom: -2%;
+  left: -40%;
+  width:300%;
+
+}
+
+.donner {
+  top: 10%;
+  right: 2.5%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  transform: scale(0.6);
+}
+
+ .flavorText {
+  bottom: 6%;
+  right: 2.5%;
+  transform: scale(0.6);
+  
+}
+
+
+ .logo {
+ transform: translate(115%,-120%);
   }
   
-  .adresse {
-    font-family: Azo Sans, Arial, regular;
-    font-size: 16px;
-    width: 200px;
-    top: 19%;
-    left:24%;
-    position: absolute;
-  }
-  
-  .copyright {
-    font-family: Azo Sans, Arial, light;
-    font-size: 13px;
-    position: absolute;
-    bottom: 6%;
-    left: 15%;
-  }
-  
-  .donner {
-    font-family: Azo Sans, Arial, bold;
-    font-size: 28px;
-    background-color: #157F3D;
-    color: white;
-    height: 60px;
-    position: relative;
-    top: 20%;
-    right: 15%;
-    padding-left:40px;
-    padding-right:40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  
-   .flavorText {
-    font-family: Azo Sans, Arial, light;
-    font-size: 13px;
-    position: relative;
-    bottom: 6%;
-    right: 15%;
-    
-  }
-  
-  .logo {
-    background-color: hotpink;
-    width: 8%;
-    height: 40%;
-    position: absolute;
-    bottom: 35%;
-    left: 15%;
-  }
+}
+}
