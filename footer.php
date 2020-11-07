@@ -43,7 +43,7 @@
         <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/youtube.png" alt="logo_youtube" class="youtube icone">
       </a>
 		</div>
-		<button class="donner">JE DONNE</button>
+		<button class="donner"><a href="https://www.jedonneenligne.org/naturequebec/" target="_blank">JE DONNE</a></button>
 		
 		<div class="flavorText">
     		Une réalisation de LA FINE ÉQUIPE™

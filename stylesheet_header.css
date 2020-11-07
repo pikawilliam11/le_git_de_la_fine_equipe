@@ -13,53 +13,81 @@ html, body {
   }
   
   .btnDonation {
+    font-family: Azo Sans, Arial, bold;
+    font-size: 28px;
+    background-color: #157F3D;
     color: white;
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 60px;
+    position: absolute;
+    top: -5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    transform: scale(0.5);
   }
   
-  .btnWrapper {
+  .btnDonation a {
+    text-decoration: none;
+  }
+
+  .btnDonation a:visited {
+    color: white;
+  }
+
+  /*.btnWrapper {
     width: 100px;
     height: 40px;
     background: #157F3D;
     position: absolute;
     top: 5px;
-  }
+    transition: ease all .5s;
+  }*/
   
   .headerLogo {
     position: absolute;
-    top: 6px;
+    top: 0px;
     left: 5%;
     height: 40px;
     width: 100px;
     padding: 5px;
   }
   
+  .hamburger {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    transition: ease all .5s;
+  }
+
   @media screen and (max-width: 1920px) {
-    .btnWrapper {
+    .btnDonation {
       right: 8%;
     }
+    .hamburger {
+      right: 5%;
+    }
   }
-  
+
   @media screen and (max-width: 770px) {
-    .btnWrapper {
-      right: 13%;
+    .btnDonation {
+      right: 11%;
     }
   }
   
   @media screen and (max-width: 520px) {
-    .btnWrapper {
-      right: 15%;
+    .btnDonation {
+      right: 10%;
+    }
+    .hamburger {
+      right: 3%;
     }
   }
   
   
   @media screen and (max-width: 380px) {
-    .btnWrapper {
-      right: 20%;
+    .btnDonation {
+      right: 9%;
     }
   }
