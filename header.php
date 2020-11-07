@@ -43,8 +43,10 @@
 		
 		<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/nq.png" alt="logo" class="headerLogo">
   			<div class="btnWrapper">
-    			<a href="#" class="btnDonation">JE DONNE</a>
+				<!--<a href="#"></a>-->
+				<button class="btnDonation"><a href="https://www.jedonneenligne.org/naturequebec/" target="_blank">JE DONNE</a></button>
   			</div>
+		<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/hamburger.png" alt="menu-hamburger" class="hamburger">
 	</nav>
 
 	<?php 

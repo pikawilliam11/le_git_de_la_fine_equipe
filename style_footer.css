@@ -68,6 +68,16 @@ body{
   padding-right: 40px;
   padding-top: 10px;
   padding-bottom: 15px;
+  text-decoration: none;
+}
+
+.donner a {
+  text-decoration: none;
+  color: white;
+}
+
+.donner:visited {
+  color: white;
 }
 
  .flavorText {
