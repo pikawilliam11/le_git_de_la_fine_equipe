@@ -104,15 +104,15 @@
             trigger: ".section1980",
             },
         })
-        .from("pasCiel.no3", {
+        .from(".no3", {
             y:"100%",
             duration:1.5,
         })
-        .from("pasCiel.no5", {
+        .from(".no5", {
             y:"100%",
         duration:1.5,
         }, '<0.5')
-        .from("pasCiel.no7", {
+        .from(".no7", {
             y:"100%",
         duration:1.5,
         }, '<0.5')
@@ -133,10 +133,11 @@
 
 //Animation de William
 
-/*gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 gsap.timeline({
     scrollTrigger:{
+    markers: true,
     pin: true,
     scrub: 1,
     start: 'center center',
@@ -175,6 +176,7 @@ gsap.timeline({
 
     gsap.timeline({
         scrollTrigger:{
+        markers: true,
         pin: true,
         scrub: 1,
         start: 'center center',
@@ -214,15 +216,14 @@ gsap.timeline({
           y:"-120%",
         })
 
-
-
-
 //Animation de Jeremy
 gsap.registerPlugin(ScrollTrigger);
 
 
+
 gsap.timeline({
     scrollTrigger:{
+    markers: true,
     pin: true,
     pinSpacing: false,
     scrub: 1,
@@ -232,11 +233,11 @@ gsap.timeline({
     trigger: ".section2010",
       },
   })
-  .from("boite2010.no3", {
+  .from(".no3", {
     rotateX: "-90deg",
     duration:2,
   })
-  .from("boite2010.no2", {
+  .from(".no2", {
     rotateX: "-90deg",
     duration:2,
   }, '<1')
@@ -285,25 +286,25 @@ gsap.timeline({
     ease: "power2",
   }, '<')
 
-  .to(".fs1", {
+  .to(".fno1", {
     rotation: "360deg",
     scale:1.5,
     ease: "none",
   }, '>')
     
-  .to(".fs2", {
+  .to(".fno2", {
    rotation: "-360deg",
     scale:2,
   ease: "none",
   }, '<')
     
-  .to(".fs3", {
+  .to(".fno3", {
     rotation: "360deg",
     scale:2.5,
   ease: "none",
   }, '<')
     
-  .to(".fs4", {
+  .to(".fno4", {
     rotation: "-360deg",
     scale:3,
   ease: "none",
@@ -313,10 +314,11 @@ gsap.timeline({
     scrollTrigger:{
     scrub:1,
     pin:true,
+    markers: true,
     start: 'start start',
     end: '300% center',
     toggleActions: 'play complete reverse reverse',
-    trigger: ".wrapper2010",
+    trigger: ".wrapper",
       },
   })
 
@@ -367,10 +369,11 @@ gsap.timeline({
       scrollTrigger:{
       scrub:1,
       pin:true,
+      markers: true,
       start: 'start start',
       end: '300% center',
       toggleActions: 'play complete reverse reverse',
-      trigger: ".wrapper2010",
+      trigger: ".wrapper",
         },
     })
   
@@ -413,7 +416,7 @@ gsap.timeline({
   .to(".texteFermeture", {
       opacity: 100,
     
-    })*/
+    })
   
 
 
