@@ -12,19 +12,39 @@ if ( have_posts() ) :
 	while ( have_posts() ) : the_post(); 
 ?>
 
+
 	<article>
 		<h2>
 			<?php the_title(); 
 			/* Titre de l'article */ ?>
 		</h2>
-		
-		<?php the_content(); 
-		/* Affiche le contenu principal de l'article */ ?>
-
+		<div class="contenu">
+			<div class="colonne_droite <?php if(get_field('actif')) {  ?> actif <?php } ?> " style="background-color: <?php the_field('couleur_fond') ?>">
+				<?php the_field("autre_nom") ?> </br>
+				<?php the_field("pays_dorigine") ?> 
+				<p><?php the_field("annees_actives_depuis") ?></p>
+				<p><?php the_field("labels") ?></p>
+				<a href="<?php the_field('site_officiel') ?>">Site web</a>
+				<img src="<?php the_field('logo') ?>"> 
+			</div>
+			<?php the_content(); 
+			/* Affiche le contenu principal de l'article */ ?>
+			<div class="wp-block-contact-form-7-contact-form-selector">
+				
+			</div>
+		</div>
 		<?php get_template_part( 'partials/metas' ); 
 		// Appel le fichier metas.php dans le dossier partials ?>
 	</article>
+
+	<script>
+		fetch("/wordpress/wp-json/wp/v2/posts/<?php the_ID(); ?>")
+			.then(response => response.json())
+			.then(data => console.log(data));
+
+	</script>
 <?php endwhile; // Fermeture de la boucle ?>
+
 		
 <?php
 	/* comments_open() valide si nous authorisons les commentaires 
@@ -36,10 +56,12 @@ if ( have_posts() ) :
 	}
 ?>
 
+
 <?php else : // Si aucun article correspondant n'a été trouvé ?>
 	<h2>Oh oh, aucun article n'a été trouvé</h2>
 	<img src="https://media.giphy.com/media/ZYX2ZNBPHmlmfc7Fcj/giphy.gif" alt="Aucun billet trouvé">
 <?php endif; 
+
 
 // Appel le fichier footer.php
 get_footer(); ?>

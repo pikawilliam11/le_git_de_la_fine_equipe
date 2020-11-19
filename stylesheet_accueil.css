@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    overflow-x:hidden;
+  }
+  .banniere.accueil{
+    width: 100vw;
+    height: 100vh; 
+  }
+  .imageBanniere.accueil{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .slogan{
+    margin-left: 10%;
+    position: absolute;
+    top:50%; 
+    color: white;
+    font-size: 30px;
+    font-family: azo sans; 
+    font-weight: 500;
+  }
+  .slogan h2{
+    background-color: rgba(8, 13, 30, 0.8);
+    padding: 10px 30px;
+    display: inline-block;
+    margin-bottom:2px;
+  }
+
+
+.resume{
+    width: 100vw;
+    height: 100vh; 
+    position: relative;
+    
+}
+.imageResume.accueil{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    filter: blur(3px);
+}
+.descriptionResume{
+    width:100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:40vh;
+}
+.descriptionResume p{
+    width: 50%;
+    padding:5% 50%;
+    color: white;
+    font-size: 30px;
+    font-family: azo sans; 
+    position: absolute;
+    text-align: center;  
+    z-index: 2; 
+}
+.fondProduit{
+    width:100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:40vh;
+}
+.fondProduit p{
+    width: 50%;
+    padding:5% 50%;
+    color: white;
+    font-size: 30px;
+    font-family: azo sans; 
+    position: absolute;
+    text-align: center; 
+    background-color: rgba(40, 80, 115, 0.8);
+    mix-blend-mode: multiply;
+}
+.boutonPageMission{
+    position: absolute;
+    font-size:35px;
+    font-family: azo sans; 
+    font-weight: 600;
+    font-style: normal;
+    color:white;
+    border: 4px solid white;
+    background: none;
+    padding:5px 30px;
+    top:75%;
+    transform:translateY(-25%); 
+    transform:translateX(-50%); 
+    left:50%;
+}
+.boutonPageMission:hover {
+    background-color:white; 
+    color: black;
+  }
+  .boutonPageMission:active {
+    background-color:black; 
+    color: white;
+  }
+
+.projets.accueil{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh; 
+    position: relative;
+}
+
+.iconeProjets{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.iconeProjets img{
+    
+}
