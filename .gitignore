@@ -13,3 +13,8 @@ wp-content/backups/
 sitemap.xml
 sitemap.xml.gz
 .DS_Store
+footer.php
+header.php
+main.js
+style.css
+footer.php
