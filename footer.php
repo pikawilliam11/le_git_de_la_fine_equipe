@@ -17,7 +17,6 @@
     </head>
 	
 	<body>  
-	<footer>
 	<div class="footer">
 		
 		<div class="combo">
@@ -53,7 +52,6 @@
 	
 
 	</div>
-	</footer>
 	</body> 
 </html>
 
