@@ -79,6 +79,9 @@ main .footer {
 .donner:visited {
   color: white;
 }
+.donner:hover {
+  background-color: #0f582b;
+}
 
  .flavorText {
   font-family: Azo Sans, Arial, light;

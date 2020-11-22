@@ -63,8 +63,69 @@ if ( have_posts() ) :
             <h3><?php the_field('titre_energie') ?></h3>
         </a>
     </div>
+
+    <?php
+        $environnement = new WP_Query( array(
+            'post_type' => 'Projet',
+            'tax_query' => array(
+                array (
+                    'taxonomy' => 'projets_parent',
+                    'field' => 'slug',
+                    'terms' => 'environnement_urbain'
+                )
+            ),
+        ));
+        $foret = new WP_Query( array(
+            'post_type' => 'Projet',
+            'tax_query' => array(
+                array (
+                    'taxonomy' => 'projets_parent',
+                    'field' => 'slug',
+                    'terms' => 'foret'
+                )
+            ),
+        ));
+        $biodiversite = new WP_Query( array(
+            'post_type' => 'Projet',
+            'tax_query' => array(
+                array (
+                    'taxonomy' => 'projets_parent',
+                    'field' => 'slug',
+                    'terms' => 'biodiversite'
+                )
+            ),
+        ));
+        $energie = new WP_Query( array(
+            'post_type' => 'Projet',
+            'tax_query' => array(
+                array (
+                    'taxonomy' => 'projets_parent',
+                    'field' => 'slug',
+                    'terms' => 'energie'
+                )
+            ),
+        ));
+    ?>
+
     <div class="nouvelles">
-        
+        [pt_view id="85b7f5bwuj"]
+    </div>
+
+    <div class="donation">
+        <div class="blocTexteDon">
+            <h3>Pourquoi</br>faire un </br>don?</h3>
+            <div class="paragrapheDroite">
+                <p>En donnant à Nature Québec, vous donnez les 
+                moyens à une équipe passionnée de lutter pour la 
+                conservation des milieux naturels et des espèces, 
+                ainsi que pour l’utilisation durable des ressources 
+                sur le territoire québécois. Vous faites le bon 
+                choix en priorisant ce qui compte vraiment, le don 
+                d’une belle planète à la future génération.
+                </p>
+                <button class="jeDonne"><a href="https://www.jedonneenligne.org/naturequebec/" target="_blank">JE DONNE</a></button>
+            </div>
+        </div>  
     </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>

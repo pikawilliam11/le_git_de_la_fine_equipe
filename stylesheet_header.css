@@ -41,6 +41,10 @@ html, body {
   .btnDonation a:visited a:active {
     color: white;
   }
+  .btnDonation:hover {
+    background-color: #0f582b;
+  }
+  
 
   /*.btnWrapper {
     width: 100px;
@@ -194,6 +198,9 @@ html, body {
       margin-bottom: 5%;
       margin-top: 2.5%;
       border: none;
+    }
+    .btnDonation :hover{
+      background-color: #0f582b;
     }
   
   .sous-menu {
