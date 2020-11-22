@@ -46,28 +46,30 @@ if ( have_posts() ) :
     </div>
 
     <div class="projets accueil">
-
-    <a href="#sectionEnvironnementSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_environnement') ?>">
-        <img src="<?php the_field('image_environnement') ?>">
-        <h3><?php the_field('titre_environnement') ?></h3>
-    </a>
-    <a href="#sectionForetSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_foret') ?>">
-        <img src="<?php the_field('image_foret') ?>">
-        <h3><?php the_field('titre_foret') ?></h3>
-    </a>
-    <a href="#sectionBiodiversiteSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_biodiversite') ?>">
-        <img src="<?php the_field('image_biodiversite') ?>">
-        <h3><?php the_field('titre_biodiversite') ?></h3>
-    </a>
-    <a href="#sectionEnergieSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_energie') ?>">
-        <img src="<?php the_field('image_energie') ?>">
-        <h3><?php the_field('titre_energie') ?></h3>
-    </a>
-
+        <a href="#sectionEnvironnementSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_environnement') ?>">
+            <img src="<?php the_field('image_environnement') ?>">
+            <h3><?php the_field('titre_environnement') ?></h3>
+        </a>
+        <a href="#sectionForetSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_foret') ?>">
+            <img src="<?php the_field('image_foret') ?>">
+            <h3><?php the_field('titre_foret') ?></h3>
+        </a>
+        <a href="#sectionBiodiversiteSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_biodiversite') ?>">
+            <img src="<?php the_field('image_biodiversite') ?>">
+            <h3><?php the_field('titre_biodiversite') ?></h3>
+        </a>
+        <a href="#sectionEnergieSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_energie') ?>">
+            <img src="<?php the_field('image_energie') ?>">
+            <h3><?php the_field('titre_energie') ?></h3>
+        </a>
+    </div>
+    <div class="nouvelles">
+        
     </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 <?php endwhile; // Fermeture de la boucle ?>
+
 
 </body>
 
