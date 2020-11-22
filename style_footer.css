@@ -150,7 +150,7 @@ main .footer {
 
    
     .footer {
-      height: 180px;
+      height: 220px;
     }
     
     .media {
@@ -181,13 +181,13 @@ main .footer {
   position: absolute;
   width: 200%;
   bottom: -2%;
-  left: -40%;
+  left: 40%;
   width:300%;
 
 }
 
 .donner {
-  top: 10%;
+  top: 3%;
   right: 2.5%;
   padding-left: 40px;
   padding-right: 40px;
@@ -206,6 +206,7 @@ main .footer {
 
  .logo {
  transform: translate(115%,-120%);
+ top:5%;
   }
   
 }
