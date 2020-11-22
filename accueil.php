@@ -1,6 +1,6 @@
 <?php 
 /**
- * 	Template Name: Accueil	
+ * 	Template Name: Home	
  */
 
 // Appel le fichier header.php

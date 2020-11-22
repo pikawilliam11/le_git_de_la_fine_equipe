@@ -5,18 +5,14 @@
 ?>
 
 	<?php 
-      wp_enqueue_style( "style_footer.css", get_stylesheet_directory_uri(). '/style_footer.css', array(), time(), false );
+	   wp_enqueue_style( "style_footer.css", get_stylesheet_directory_uri(). '/style_footer.css', array(), time(), false );
     ?>
 
-<!DOCTYPE html>
 
-<html lang="en">
-    <head>
-    <link rel="stylesheet" href="https://use.typekit.net/rcw0dji.css">
-    <meta charset="UTF-8">
-    </head>
+
+
 	
-	<body>  
+
 	<div class="footer">
 		
 		<div class="combo">
@@ -52,8 +48,8 @@
 	
 
 	</div>
-	</body> 
-</html>
+
+
 
 
 <?php wp_footer(); 

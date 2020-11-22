@@ -5,6 +5,7 @@ html, body {
   .banniere.accueil{
     width: 100vw;
     height: 100vh; 
+    position:relative;
   }
   .imageBanniere.accueil{
     width: 100vw;
@@ -43,6 +44,7 @@ html, body {
     filter: blur(3px);
 }
 .descriptionResume{
+  box-sizing:content-box;
     width:100%;
     position: absolute;
     display: flex;
@@ -51,6 +53,7 @@ html, body {
     top:40vh;
 }
 .descriptionResume p{
+    box-sizing:content-box;
     width: 50%;
     padding:5% 50%;
     color: white;
@@ -61,6 +64,7 @@ html, body {
     z-index: 2; 
 }
 .fondProduit{
+  box-sizing:content-box;
     width:100%;
     position: absolute;
     display: flex;
@@ -69,6 +73,7 @@ html, body {
     top:40vh;
 }
 .fondProduit p{
+    box-sizing:content-box;
     width: 50%;
     padding:5% 50%;
     color: white;

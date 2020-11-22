@@ -29,8 +29,6 @@ if ( have_posts() ) :
 <body>
 
 	
-
-	<article>
 		<?php if (!is_front_page()) : 
 			/* Affiche le code suivant uniquement si nous ne sommes PAS sur la page d'accueil */ ?>
 			<div class="banniere projet">
@@ -61,41 +59,6 @@ if ( have_posts() ) :
 				</div>
 			</div>
 		<?php endif; ?>
-		<div class="sectionProjet parent">
-
-			<div id="sectionEnvironnementSautDePage" class="bandeauProjetsParent" style="background-color: <?php the_field('couleur_environnement') ?>">
-				<img src="<?php the_field('image_environnement') ?>"> 
-				<h3><?php the_field('titre_environnement') ?></h3>
-				<p><?php the_field('description_environnement') ?></p>	
-			</div>
-			<?php the_content(); 
-			/* Affiche le contenu principal de la page */ ?>
-
-			<div id="sectionForetSautDePage" class="bandeauProjetsParent" style="background-color: <?php the_field('couleur_foret') ?>">
-				<img src="<?php the_field('image_foret') ?>"> 
-				<h3><?php the_field('titre_foret') ?></h3>
-				<p><?php the_field('description_foret') ?></p>	
-			</div>
-			<?php the_content(); 
-			/* Affiche le contenu principal de la page */ ?>
-
-			<div id="sectionBiodiversiteSautDePage" class="bandeauProjetsParent" style="background-color: <?php the_field('couleur_biodiversite') ?>">
-				<img src="<?php the_field('image_biodiversite') ?>"> 
-				<h3><?php the_field('titre_biodiversite') ?></h3>
-				<p><?php the_field('description_biodiversite') ?></p>	
-			</div>
-			<?php the_content(); 
-			/* Affiche le contenu principal de la page */ ?>
-
-			<div id="sectionEnergieSautDePage" class="bandeauProjetsParent" style="background-color: <?php the_field('couleur_energie') ?>">
-				<img src="<?php the_field('image_energie') ?>"> 
-				<h3><?php the_field('titre_energie') ?></h3>
-				<p><?php the_field('description_energie') ?></p>	
-			</div>
-			<?php the_content(); 
-			/* Affiche le contenu principal de la page */ ?>
-		</div>
-	</article>
 
 <?php endwhile; // Fermeture de la boucle ?>
 
@@ -145,7 +108,15 @@ $energie = new WP_Query( array(
 
 
 <div class="sectionProjet enfant">
+		
 		<div class="swiper-container environnement">
+		<div id="sectionEnvironnementSautDePage" class="bandeauProjetsParent" style="background-color: <?php the_field('couleur_environnement') ?>">
+				<img src="<?php the_field('image_environnement') ?>"> 
+				<h3><?php the_field('titre_environnement') ?></h3>
+				<p><?php the_field('description_environnement') ?></p>	
+			</div>
+			<?php the_content(); 
+			/* Affiche le contenu principal de la page */ ?>
 			<div class="swiper-wrapper">
 				<?php
 					/*Projets enfant*/
@@ -156,9 +127,19 @@ $energie = new WP_Query( array(
 			</div>
 			<div class="swiper-button-next"></div>
     		<div class="swiper-button-prev"></div>
-    		<div class="swiper-pagination"></div>
+			<div class="swiper-pagination"></div>
+			
 		</div>
+
+
 		<div class="swiper-container foret">
+			<div id="sectionForetSautDePage" class="bandeauProjetsParent" style="background-color: <?php the_field('couleur_foret') ?>">
+					<img src="<?php the_field('image_foret') ?>"> 
+					<h3><?php the_field('titre_foret') ?></h3>
+					<p><?php the_field('description_foret') ?></p>	
+				</div>
+				<?php the_content(); 
+				/* Affiche le contenu principal de la page */ ?>
 			<div class="swiper-wrapper">
 				<?php
 					/*Projets enfant*/
@@ -171,7 +152,16 @@ $energie = new WP_Query( array(
     		<div class="swiper-button-prev"></div>
     		<div class="swiper-pagination"></div>
 		</div>
+
+
 		<div class="swiper-container biodiversite">
+			<div id="sectionBiodiversiteSautDePage" class="bandeauProjetsParent" style="background-color: <?php the_field('couleur_biodiversite') ?>">
+				<img src="<?php the_field('image_biodiversite') ?>"> 
+				<h3><?php the_field('titre_biodiversite') ?></h3>
+				<p><?php the_field('description_biodiversite') ?></p>	
+			</div>
+			<?php the_content(); 
+			/* Affiche le contenu principal de la page */ ?>
 			<div class="swiper-wrapper">
 				<?php
 					/*Projets enfant*/
@@ -184,7 +174,16 @@ $energie = new WP_Query( array(
     		<div class="swiper-button-prev"></div>
     		<div class="swiper-pagination"></div>
 		</div>
+
+
 	<div class="swiper-container energie">
+		<div id="sectionEnergieSautDePage" class="bandeauProjetsParent" style="background-color: <?php the_field('couleur_energie') ?>">
+				<img src="<?php the_field('image_energie') ?>"> 
+				<h3><?php the_field('titre_energie') ?></h3>
+				<p><?php the_field('description_energie') ?></p>	
+			</div>
+			<?php the_content(); 
+			/* Affiche le contenu principal de la page */ ?>
 		<div class="swiper-wrapper">
 			<?php
 				/*Projets enfant*/
