@@ -11,3 +11,14 @@ hamburger.addEventListener('click', () => {
       }
     }
 );
+
+let oldTitle = document.title;
+let newTitle = "Ne me quitte pas 😢";
+
+window.addEventListener("blur", () => {
+  document.title = newTitle;
+});
+
+window.addEventListener("focus", () => {
+  document.title = oldTitle;
+});
