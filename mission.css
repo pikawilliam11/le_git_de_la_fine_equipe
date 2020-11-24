@@ -43,7 +43,7 @@ body {
   
   .decouvrir{
     position: absolute;
-    top:60%;
+    bottom: 20%;
     transform: translateY(-50%); 
     display: flex;
     justify-content: center;
@@ -249,6 +249,10 @@ body {
     
     .savoir {
       right: 15%;
+    }
+
+    .decouvrir {
+      bottom: 15%;
     }
     
   @media screen and (max-width: 693px) {
