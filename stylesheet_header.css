@@ -114,8 +114,20 @@ html, body {
     }
   }
 
+<<<<<<< HEAD
   
 
+=======
+  /*hamburger*/
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: Azo Sans, Arial, bold;
+  }
+>>>>>>> parent of 6fa7025... Hamburger V1.0.0
   
   .menu-visible {
     display: flex;
