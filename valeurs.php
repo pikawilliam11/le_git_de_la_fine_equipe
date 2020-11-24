@@ -1,6 +1,6 @@
 <?php
 /**
- * Modèle permettant d'afficher une page.
+ * Template Name: Valeurs.
  */
 
 // Appel le fichier header.php
