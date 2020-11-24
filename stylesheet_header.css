@@ -115,9 +115,9 @@ html, body {
 
   /*hamburger*/
 
-  * {
+  /** {
     box-sizing: border-box;
-  }
+  }*/
 
   html, body {
     font-family: Azo Sans, Arial, bold;

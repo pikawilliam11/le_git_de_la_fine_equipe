@@ -6,22 +6,24 @@
 // Appel le fichier header.php
 get_header(); 
 
-// Est-ce que nous avons des pages à afficher ?
-if ( have_posts() ) : 
-	// Si oui, bouclons au travers les pages (logiquement, il n'y en aura qu'une)
-	while ( have_posts() ) : the_post(); 
 ?>
 
-	<article>
-		<h2>
-			<?php the_title(); 
-			/* Titre de la page */ ?>
-		</h2>
+<?php 
+	wp_enqueue_style( "stylesheet_equipe.css", get_stylesheet_directory_uri(). '/stylesheet_equipe.css', array(), time(), false );
+	wp_enqueue_script( "script_equipe.js", get_stylesheet_directory_uri() . '/script_equipe.js', array(), ”, false );
+?>
 
-		<?php the_content(); 
-		/* Affiche le contenu principal de la page */ ?>
-	</article>
-<?php endwhile; // Fermeture de la boucle ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Equipe</title>
+</head>
+<body>
+	
+</body>
+</html>
 
 <?php else : // Si aucune page correspondante n'a été trouvée ?>
 	<h2>Oh oh, la page recherchée est disparue</h2>
