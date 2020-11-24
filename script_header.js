@@ -3,11 +3,11 @@ let menuWrapper = document.querySelector('.menu-wrapper');
 
 hamburger.addEventListener('click', () => {
     if (menuWrapper.classList.contains('menu-visible')) {
-        menuWrapper.classList.remove('menu-visible', 'transition');
-        menuWrapper.classList.add('menu-wrapper', 'transition');
+        menuWrapper.classList.remove('menu-visible');
+        menuWrapper.classList.add('menu-wrapper');
       } else {
-        menuWrapper.classList.remove('menu-wrapper', 'transition');
-        menuWrapper.classList.add('menu-visible', 'transition');
+        menuWrapper.classList.remove('menu-wrapper');
+        menuWrapper.classList.add('menu-visible');
       }
     }
 );
