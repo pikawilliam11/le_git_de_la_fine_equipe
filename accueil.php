@@ -46,19 +46,19 @@ if ( have_posts() ) :
     </div>
 
     <div class="projets accueil">
-        <a href="#sectionEnvironnementSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_environnement') ?>">
+        <a href="https://naturequebec.doubleryle.com/nq/projets/#sectionEnvironnementSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_environnement') ?>">
             <img src="<?php the_field('image_environnement') ?>">
             <h3><?php the_field('titre_environnement') ?></h3>
         </a>
-        <a href="#sectionForetSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_foret') ?>">
+        <a href="https://naturequebec.doubleryle.com/nq/projets/#sectionForetSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_foret') ?>">
             <img src="<?php the_field('image_foret') ?>">
             <h3><?php the_field('titre_foret') ?></h3>
         </a>
-        <a href="#sectionBiodiversiteSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_biodiversite') ?>">
+        <a href="https://naturequebec.doubleryle.com/nq/projets/#sectionBiodiversiteSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_biodiversite') ?>">
             <img src="<?php the_field('image_biodiversite') ?>">
             <h3><?php the_field('titre_biodiversite') ?></h3>
         </a>
-        <a href="#sectionEnergieSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_energie') ?>">
+        <a href="https://naturequebec.doubleryle.com/nq/projets/#sectionEnergieSautDePage" class="iconeProjets" style="background-color: <?php the_field('couleur_energie') ?>">
             <img src="<?php the_field('image_energie') ?>">
             <h3><?php the_field('titre_energie') ?></h3>
         </a>
@@ -113,7 +113,7 @@ if ( have_posts() ) :
 
     <div class="donation">
         <div class="blocTexteDon">
-            <h3>Pourquoi</br>faire un </br>don?</h3>
+            <h3>Pourquoi faire un don?</h3>
             <div class="paragrapheDroite">
                 <p>En donnant à Nature Québec, vous donnez les 
                 moyens à une équipe passionnée de lutter pour la 
@@ -126,6 +126,21 @@ if ( have_posts() ) :
                 <button class="jeDonne"><a href="https://www.jedonneenligne.org/naturequebec/" target="_blank">JE DONNE</a></button>
             </div>
         </div>  
+    </div>
+
+    <div class="temoignage">
+        
+        <img class="fondTemoignage" src="<?php the_field('fond_temoignage') ?>">
+        <div class="blocTemoignage">
+            <div class="imageTemoignage">
+                <img src="<?php the_field('image_temoignage') ?>">
+            </div>
+            <div class="texteTemoignage">
+                <p><?php the_field('texte_temoignage') ?></p> 
+                <h4><?php the_field('nom_temoignage') ?></h6>
+            </div>
+        </div>
+
     </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>

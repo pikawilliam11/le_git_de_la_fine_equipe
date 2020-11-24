@@ -25,9 +25,9 @@ body {
   top:45%;
   transform:translateY(-55%); 
 }
-.blocTexte{
+.blocTexte.partenaire{
   position: absolute;
-  top:70%;
+  bottom:25%;
   transform:translateY(-50%); 
   display: flex;
   justify-content: center;
