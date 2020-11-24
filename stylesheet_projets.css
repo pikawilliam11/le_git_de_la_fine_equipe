@@ -33,9 +33,9 @@ a:link, a:visited, a:hover, a:active{
     top:45%;
     transform:translateY(-55%); 
   }
-  .blocTexte{
+  .blocTexte.projet{
     position: absolute;
-    top:65%;
+    bottom:25%;
     height:10%;
     transform:translateY(-50%); 
     display: flex;
