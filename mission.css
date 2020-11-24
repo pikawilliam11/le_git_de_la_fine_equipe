@@ -10,13 +10,15 @@ body {
   }
   
   
-  .banniere {
+  .banniereJay {
     width: 100vw;
     height: 60vh;
     object-fit: cover;
     display: flex;
     justify-content: center;
     position: relative;
+    bottom: 25%;
+
     
     
   }

@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/rcw0dji.css">
     <title>Mission</title>
 </head>
-<div class="banniere">
+<div class="banniereJay">
     <img src="https://naturequebec.doubleryle.com/nq/wp-content/uploads/2020/11/lac-scaled.jpg" alt="imageBanniere" class="imageBanniere">
     <div class="banniereTitre">
       Mission | Nature Québec
