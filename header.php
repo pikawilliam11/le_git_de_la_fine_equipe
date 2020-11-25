@@ -52,11 +52,20 @@
 
 	<div class="bgAlpha">
 		<div class="menu-wrapper">
+<<<<<<< HEAD
 			<a href="">Projets</a>
 			<a href="">Campagnes</a>
 			<a href="">Histoire</a>
 			<a href="">Mission</a>
 			<a href="">Équipe</a>
+=======
+		<a href="https://naturequebec.doubleryle.com/nq/projets/">Projets</a>
+			<a href="https://naturequebec.doubleryle.com/nq/campagnes/">Campagnes</a>
+			<a href="https://naturequebec.doubleryle.com/nq/histoire/">Histoire</a>
+			<a href="https://naturequebec.doubleryle.com/nq/mission/">Mission</a>
+			<a href="https://naturequebec.doubleryle.com/nq/equipe/">Équipe</a>
+			<a href="https://naturequebec.doubleryle.com/nq/contact/">Contact</a>
+>>>>>>> parent of caf2906... Merge branch 'master' of https://github.com/pikawilliam11/le_git_de_la_fine_equipe
 				<div class="menu-social">
 				<a href="https://www.facebook.com/naturequebec/">
 					<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/facebook-1.png" alt="logo_facebook" class="facebook icone">
