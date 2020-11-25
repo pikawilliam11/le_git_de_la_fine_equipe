@@ -52,33 +52,41 @@
 
 	<div class="bgAlpha">
 		<div class="menu-wrapper">
-			<a href="https://naturequebec.doubleryle.com/nq/projets/">Projets</a>
-			<a href="https://naturequebec.doubleryle.com/nq/campagnes/">Campagnes</a>
-			<a href="https://naturequebec.doubleryle.com/nq/histoire/">Histoire</a>
-			<a href="https://naturequebec.doubleryle.com/nq/mission/">Mission</a>
-			<a href="https://naturequebec.doubleryle.com/nq/equipe/">Équipe</a>
-			<a href="https://naturequebec.doubleryle.com/nq/contact/">Contact</a>
+			<a href="">Projets</a>
+			<a href="">Campagnes</a>
+			<a href="">Histoire</a>
+			<a href="">Mission</a>
+			<a href="">Équipe</a>
 				<div class="menu-social">
-				<a href="https://www.facebook.com/naturequebec/" target="_blank">
+				<a href="https://www.facebook.com/naturequebec/">
 					<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/facebook-1.png" alt="logo_facebook" class="facebook icone">
 						</a>
-				<a href="https://twitter.com/NatureQuebec?hl=fr-ca" target="_blank">
+				<a href="https://twitter.com/NatureQuebec?hl=fr-ca">
 					<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/twitter-1.png" alt="logo_twitter" class="twitter icone">
 						</a>
-				<a href="https://www.instagram.com/naturequebec/" target="_blank">
+				<a href="https://www.instagram.com/naturequebec/">
 					<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/instagrgam-1.png" alt="logo_instagram" class="instagram icone">
-						<a href="https://www.youtube.com/user/NatureQuebec" target="_blank">
+						<a href="https://www.youtube.com/user/NatureQuebec">
 					<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/youtube.png" alt="logo_youtube" class="youtube icone">
 				</a>
 				</div>
 				<button class="headerDonner"><a href="https://www.jedonneenligne.org/naturequebec/" target="_blank">JE DONNE</a></button>
 					<div class="sous-menu">
-						<a href="https://naturequebec.doubleryle.com/nq/nouvelles/">Nouvelles</a>
-						<a href="https://naturequebec.doubleryle.com/nq/partenaires/">Partenaires</a>
-						<a href="https://naturequebec.doubleryle.com/nq/contact/">Contact</a>
+						<a href="">Nouvelles</a>
+						<a href="">Partenaires</a>
+						<a href="">Contact</a>
 					</div>       
 		</div>
 	</div>
 	<?php 
 			// Affiche un menu si dans le tableau de bord un menu à été défini dans cet emplacement
-			//wp_nav_menu( array( 'theme_location' => 'mai
+			wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+		?>
+
+	<?php 
+		// Affiche la description de site se trouvant dans "General Settings" dans l'admin Wordpress
+		//bloginfo( 'description' ); 
+	?>
+</header>
+
+<main><!-- Débute le contenu principal de notre site -->
