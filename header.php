@@ -52,7 +52,7 @@
 
 	<div class="bgAlpha">
 		<div class="menu-wrapper">
-		<a href="https://naturequebec.doubleryle.com/nq/projets/">Projets</a>
+			<a href="https://naturequebec.doubleryle.com/nq/projets/">Projets</a>
 			<a href="https://naturequebec.doubleryle.com/nq/campagnes/">Campagnes</a>
 			<a href="https://naturequebec.doubleryle.com/nq/histoire/">Histoire</a>
 			<a href="https://naturequebec.doubleryle.com/nq/mission/">Mission</a>
@@ -81,13 +81,4 @@
 	</div>
 	<?php 
 			// Affiche un menu si dans le tableau de bord un menu à été défini dans cet emplacement
-			wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
-		?>
-
-	<?php 
-		// Affiche la description de site se trouvant dans "General Settings" dans l'admin Wordpress
-		//bloginfo( 'description' ); 
-	?>
-</header>
-
-<main><!-- Débute le contenu principal de notre site -->
+			//wp_nav_menu( array( 'theme_location' => 'mai
