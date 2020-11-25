@@ -27,7 +27,7 @@ body {
 }
 .blocTexte.partenaire{
   position: absolute;
-  bottom:25%;
+  bottom:30%;
   transform:translateY(-50%); 
   display: flex;
   justify-content: center;
