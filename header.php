@@ -41,12 +41,13 @@
 <header>
 
 	<nav class="navbarColor">
-		
-		<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/nq.png" alt="logo" class="headerLogo">
-  			<div class="btnWrapper">
-				<!--<a href="#"></a>-->
-				<button class="btnDonation"><a href="https://www.jedonneenligne.org/naturequebec/" target="_blank">JE DONNE</a></button>
-  			</div>
+		<a href="https://naturequebec.doubleryle.com/nq/">
+			<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/nq.png" alt="logo" class="headerLogo">
+		</a>
+  				<div class="btnWrapper">
+					<!--<a href="#"></a>-->
+					<button class="btnDonation"><a href="https://www.jedonneenligne.org/naturequebec/" target="_blank">JE DONNE</a></button>
+  				</div>
 		<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/hamburger.png" alt="menu-hamburger" class="hamburger" id="hamburger">
 	</nav>
 
@@ -81,7 +82,7 @@
 	</div>
 	<?php 
 			// Affiche un menu si dans le tableau de bord un menu à été défini dans cet emplacement
-			wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+			//wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
 		?>
 
 	<?php 
