@@ -58,7 +58,6 @@
 			<a href="https://naturequebec.doubleryle.com/nq/histoire/">Histoire</a>
 			<a href="https://naturequebec.doubleryle.com/nq/mission/">Mission</a>
 			<a href="https://naturequebec.doubleryle.com/nq/equipe/">Équipe</a>
-			<a href="https://naturequebec.doubleryle.com/nq/contact/">Contact</a>
 				<div class="menu-social">
 				<a href="https://www.facebook.com/naturequebec/">
 					<img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/facebook-1.png" alt="logo_facebook" class="facebook icone">
