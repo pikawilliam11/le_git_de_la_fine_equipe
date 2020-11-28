@@ -43,7 +43,7 @@ body {
   
   .decouvrir{
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     transform: translateY(-50%); 
     display: flex;
     justify-content: center;
