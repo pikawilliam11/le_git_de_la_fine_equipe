@@ -1,6 +1,6 @@
 <?php 
 /**
- * 	Template Name: Nouvelles
+ * 	Template Name: Campagnes
  */
 
 // Appel le fichier header.php
@@ -23,11 +23,11 @@ if ( have_posts() ) :
     <link rel="stylesheet" href="https://use.typekit.net/rcw0dji.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
 	
-    <title>Nouvelles</title>
+    <title>Campagnes</title>
 </head>
 <body>
     
-    <h1 class="titreNouvelles">Nouvelles | Nature Québec</h1>
+    <h1 class="titreNouvelles">Campagnes | Nature Québec</h1>
 
     <div class="nouvelles">
         <?php //echo do_shortcode("[pt_view id=228c9c4mjt]"); ?>

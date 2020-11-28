@@ -42,7 +42,7 @@ if ( have_posts() ) :
             <p>Depuis 1981, Nature Québec mène des projets touchant à la biodiversité, la forêt, l’énergie et le climat, ainsi que l’environnement urbain. Nature Québec sensibilise, mobilise et agit en vue d’une société plus juste, à faible empreinte écologique et climatique, solidaire du reste de la planète.</p> 
         </div>
         <div class="fondProduit"><p>Depuis 1981, Nature Québec mène des projets touchant à la biodiversité, la forêt, l’énergie et le climat, ainsi que l’environnement urbain. Nature Québec sensibilise, mobilise et agit en vue d’une société plus juste, à faible empreinte écologique et climatique, solidaire du reste de la planète.</p> </div>
-        <button href="PAGE MISSION" class="boutonPageMission">Découvrez Nature Québec</button>
+        <button href="https://naturequebec.doubleryle.com/nq/mission/" class="boutonPageMission">Découvrez Nature Québec</button>
     </div>
 
     <div class="projets accueil">
@@ -108,7 +108,7 @@ if ( have_posts() ) :
     ?>
 
     <div class="nouvelles">
-        [pt_view id="85b7f5bwuj"]
+        <?php echo do_shortcode("[pt_view id=85b7f5bwuj]"); ?>
     </div>
 
     <div class="donation">
