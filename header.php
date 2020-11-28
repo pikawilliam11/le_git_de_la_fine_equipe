@@ -74,9 +74,9 @@
 				</div>
 				<button class="headerDonner"><a href="https://www.jedonneenligne.org/naturequebec/" target="_blank">JE DONNE</a></button>
 					<div class="sous-menu">
-						<a href="">Nouvelles</a>
-						<a href="">Partenaires</a>
-						<a href="">Contact</a>
+						<a href="https://naturequebec.doubleryle.com/nq/nouvelles/">Nouvelles</a>
+						<a href="https://naturequebec.doubleryle.com/nq/partenaires/">Partenaires</a>
+						<a href="https://naturequebec.doubleryle.com/nq/contact/">Contact</a>
 					</div>       
 		</div>
 	</div>
