@@ -30,14 +30,7 @@ html, body {
     margin-bottom:2px;
   }
 
-  .titreNouvelles{
-    font-size: 60px;
-    font-weight: 600;
-    position: relative;
-    text-align: center;
-    margin-top: 5%;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-  }
+  
 
 .resume{
     width: 100vw;
@@ -109,14 +102,27 @@ html, body {
     transform:translateX(-50%); 
     left:50%;
 }
+.boutonPageMission a{
+  text-decoration: none;
+  color: white;
+}
+.boutonPageMission a:active{
+  text-decoration: none;
+  color: white;
+}
+.boutonPageMission a:hover{
+  text-decoration: none;
+  color: black;
+}
+.boutonPageMission:active {
+  background-color:black; 
+  color: white;
+}
 .boutonPageMission:hover {
     background-color:white; 
     color: black;
-  }
-  .boutonPageMission:active {
-    background-color:black; 
-    color: white;
-  }
+}
+
 
 .projets.accueil{
     display: flex;
@@ -162,7 +168,7 @@ html, body {
 }
 .pt-cv-page{
   width: 100vw;
-  height: 70%;
+  height: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -322,6 +328,33 @@ html, body {
 
 
 
+.banniereNouvelles{
+  width: 100vw;
+  height: 20vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.titreNouvelles{
+  position:absolute;
+  color:white;
+  font-size: 60px;
+  font-family: azo sans; 
+  font-weight: 600;
+  font-style: normal;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+  top:20%;
+  transform-origin: center;
+  z-index: 2;
+}
+.imageBanniere.nouvelles{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 @media screen and (max-width: 1500px) {
   .blocTemoignage{
     width: 80%;
@@ -331,23 +364,38 @@ html, body {
   }
 }
 @media screen and (max-width: 1400px) {
-  .titreNouvelles{
-    font-size: 60px;
-    font-weight: 600;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    margin-top: 5%;
+  .nouvelles{
+    height: 80vh;
   }
+
+  .blocTexteDon{
+    font-size: 65px;
+    transform-origin: 50% 50%;
+    margin-top: 150px;
+  }
+  .blocTexteDon h3{
+    font-size: 65px;
+    transform-origin: center;
+    margin-top:200px;
+  }
+  .paragrapheDroite{
+    width: 50%;
+    height:70%;
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+  .paragrapheDroite p{
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (max-width: 1100px) {
+
   .titreNouvelles{
-    font-size: 60px;
-    font-weight: 600;
-    position: relative;
-    text-align: center;
-    margin-top: 5%;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .iconeProjets h3{
     margin-top:25%;
@@ -378,25 +426,7 @@ html, body {
     box-shadow: 3px 3px 10px rgba(1, 2, 27, 0.4);
   }
 
-  .blocTexteDon{
-    font-size: 65px;
-    transform-origin: 50% 50%;
-    margin-top: 150px;
-  }
-  .blocTexteDon h3{
-    font-size: 65px;
-    transform-origin: center;
-    margin-top:200px;
-  }
-  .paragrapheDroite{
-    width: 50%;
-    height:70%;
-    margin-left: 5%;
-    margin-right: 10%;
-  }
-  .paragrapheDroite p{
-    font-size: 20px;
-  }
+  
 
 
   .pt-cv-page{
@@ -409,9 +439,8 @@ html, body {
     position: relative;
 
   }
-
   .pt-cv-ifield img{
-    width: 90%;
+    width: 70%;
   }
   .col-md-4.col-sm-4.col-xs-12.pt-cv-content-item.pt-cv-1-col{
     width: 90%;
@@ -441,12 +470,13 @@ html, body {
     font-size: 20px;
     left: 0px;
     transform: translateX(0);
+    bottom: 15px;
   }
   
   .pt-cv-content{
     padding-bottom: 20px;
     position:absolute;
-    top:30%;
+    bottom:0%;
     width:50%;
     left:250px;
     margin-top: 40px;
@@ -535,6 +565,11 @@ html, body {
 }
 @media screen and (max-width: 600px) {
 
+  .titreNouvelles{
+    font-size: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   .iconeProjets{
     margin-top: 0px;
   }
@@ -564,21 +599,11 @@ html, body {
 
 
 @media screen and (max-width: 550px) {
-  .titreNouvelles{
-    font-size: 50px;
-    font-weight: 600;
-    position: relative;
-    text-align: center;
-    margin-top: 5%;
-  }
-
-  .nouvelles{
-    height: 105vh;
-  }
 
   .pt-cv-ifield img{
-    width: 100%;
+    width: 70%;
     border: solid 10px #ffffff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
   }
 
   .col-md-4.col-sm-4.col-xs-12.pt-cv-content-item.pt-cv-1-col{
@@ -587,20 +612,21 @@ html, body {
     padding: 0px;
     background-color: rgba(0, 0, 0, 0.0);
     display: flex;
-    margin-top: 4%;
     justify-content: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.0);
   }
   .col-md-4.col-sm-4.col-xs-12.pt-cv-content-item.pt-cv-1-col h4{
     text-align: center;
     font-weight: 700;
     margin:0px;
     color: black;
-    position:absolute;
+    text-align: center;
     top:50%;
     font-size: 20px;
-    width:170px;
-    left: 50%;
-    transform: translate(-40%, -50%);
+    position: absolute;
+    left: 47%;
+    transform-origin: center;
+    transform: translate(-43%, -50%);
     background-color: rgba(20, 20, 20, 0.8);
     padding: 10px;
 
@@ -629,6 +655,11 @@ html, body {
 
 
 @media screen and (max-width: 430px) {
+  .titreNouvelles{
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   .donation{
     height:70vh;
   }
@@ -681,13 +712,12 @@ html, body {
   .slogan h2{
     text-align: center;
   } 
+
   
 }
 
 @media screen and (max-width: 250px) {
-  .titreNouvelles{
-    font-size: 30px;
-  }
+  
   .blocTexteDon{
     height: 80%;
   }

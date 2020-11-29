@@ -26,8 +26,10 @@ if ( have_posts() ) :
     <title>Nouvelles</title>
 </head>
 <body>
-    
-    <h1 class="titreNouvelles">Nouvelles | Nature Québec</h1>
+    <div class="banniereNouvelles">
+        <h1 class="titreNouvelles">Nouvelles | Nature Québec</h1>
+        <img class="imageBanniere nouvelles" src="<?php the_field('image_banniere') ?>">
+    </div>
 
     <div class="nouvelles">
         <?php //echo do_shortcode("[pt_view id=228c9c4mjt]"); ?>
