@@ -148,6 +148,7 @@ html, body {
 .iconeProjets img:hover{
   width: 35%;
   margin-bottom: 5%;
+  transition-duration: 0.3s;
 }
 .iconeProjets h3{
   position: absolute;
