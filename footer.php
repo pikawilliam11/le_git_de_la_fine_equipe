@@ -16,8 +16,8 @@
 	<div class="footer">
 		
 		<div class="combo">
-		  <div class="adresse">
-       870, avenue De Salaberry Bureau 207 Québec, Qc G1R 2T9
+		  <div class="adresse"><a href="https://www.google.com/maps/place/NATURE+QU%C3%89BEC/@46.8057701,-71.229522,17z/data=!3m1!4b1!4m5!3m4!1s0x4cb896796212bdbb:0xa65682f198e5dd99!8m2!3d46.8057701!4d-71.2273333" target="_blank">
+       870, avenue De Salaberry Bureau 207 Québec, Qc G1R 2T9</a>
        <img src="https://naturequebec.go.yj.fr/wp-content/uploads/2020/11/nq.png" alt="logo_nature_quebec" class="logo">
       </div>
 		  <div class="copyright">

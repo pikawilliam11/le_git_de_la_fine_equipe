@@ -1,0 +1,169 @@
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.banniere {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    justify-content: center;
+    display: flex;  
+}
+
+.titrePage {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 50px;
+    font-family: azo sans; 
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+    top: 45%;
+    transform: translateY(-55%);
+    text-align: center;
+}
+
+.blocTexte.equipe {
+  position: absolute;
+  bottom: 42vh;
+  transform: translateY(-50%); 
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  color: white;
+  background-color: rgba(9, 23, 29, 0.7);
+  box-shadow: 3px 3px 7px #0f1b24;
+  align-items: center;
+}
+.blocTexte p {
+  max-width: 700px;
+  position: relative;
+  font-size: 18px;
+  font-family: azo sans; 
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 20px;
+  top: 5px;
+  text-align: center;
+}
+
+.imgEquipe {
+  border-radius: 50%;
+}
+
+.nom {
+  font-weight: bold;
+  font-size: 25px;
+  left: 50%;
+  text-align: center;
+}
+
+.titre {
+  text-align: center;
+  font-style: italic;
+}
+
+.equipeWrapper .contactEmail {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.equipeWrapper {
+  padding: 80px;
+}
+
+.conseilWrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.imgConseil {
+  border-radius: 50%;
+  padding: 30px;
+  
+}
+
+.conseilTitre {
+  font-style: italic;
+}
+
+.wrapper1 {
+  background: #E7E3E0;
+}
+
+.wrapper2 {
+  background: #CFCCC9;
+}
+
+.conseilNom {
+  text-align: center;
+  font-weight: bold;
+}
+
+.conseilTitre {
+  text-align: center;
+}
+
+.conseilRepresente {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.conseilHeader {
+  text-align: center;
+  padding-top: 20px;
+  font-family: azo sans;
+  font-weight: normal;
+}
+
+.conseilNom, .conseilTitre, .conseilRepresente {
+  position: relative;
+  bottom: 20px;
+}
+
+@media screen and (min-width: 300px) {
+  .titrePage {
+    font-size: 27px;
+    top: 35%;
+  }
+  .blocTexte.equipe {
+    bottom: 38vh;
+  }
+}
+
+@media screen and (min-width: 365px) {
+  .titrePage {
+    font-size: 40px;
+    top: 35%;
+  }
+  .blocTexte.equipe {
+    bottom: 39vh;
+  }
+}
+
+@media screen and (min-width: 443px) {
+  .titrePage {
+    font-size: 40px;
+    top: 35%;
+  }
+}
+
+@media screen and (min-width: 625px) {
+  .titrePage {
+    font-size: 30px;
+    top: 45%;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .titrePage {
+    font-size: 37px;
+    top: 45%;
+  }
+}
+  

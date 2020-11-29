@@ -83,7 +83,6 @@ a:link, a:visited, a:hover, a:active{
   .imageSousBanniereInd:hover{
     width: 21%;
     max-width: 320px;
-    transition-duration: 0.3s;
   }
   .imageSousBanniereInd h3{
     color: black;
