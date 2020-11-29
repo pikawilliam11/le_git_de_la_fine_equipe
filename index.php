@@ -11,7 +11,7 @@ get_header();
 // Dans le cas de la page d'accueil, les billets les plus récents serons affichés
 if ( have_posts() ) : 
 	// Si oui, bouclons au travers pour tous les afficher
-	while ( have_posts() ) : the_post(); 
+	while ( have_posts() ) : the_post();
 ?>
 
 	<article>
