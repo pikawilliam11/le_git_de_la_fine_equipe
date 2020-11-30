@@ -29,7 +29,33 @@ get_header();
         <p>Nature Québec peut compter sur l’appui de partenaires financiers. Ceux-ci permettent d’intervenir dans les différents axes de sa mission. Nous les remercions. Merci de faire une différence!</p>
     </div>
 
-	<div class="container-fluid wrapper1">
+	<?php 
+		$nomMembre = the_field('nom_du_membre');
+		$titreMembre = the_field('titre_du_membre');
+		$telephoneMembre = the_field('telephone_du_membre');
+		$photoMembre = get_field('photo_du_membre');
+  		$urlMembre = $photoMembre['url'];
+		$altMembre = $photoMembre['alt'];
+		$courrielMembre = the_field('courriel_du_membre');
+
+		for($x=0;$x<$nomMembre;$x++) {
+  			echo '<div class="container-fluid wrapper1">
+			  <div class="row">
+				  <div class="col-md-6 d-flex justify-content-center">
+					  <div class="equipeWrapper">
+						  <img src='$urlMembre[$x]' alt='$photoMembre[$x]' class="imgEquipe img-fluid">
+						  <div class="nom">'$nomMembre[$x]'</div>
+						  <div class="titre">'$titreMembre[$x]'</div>
+						  <div class="contactPhone">'$telephoneMembre'</div>
+						  <div class="contactEmail"><a href="mailto:'$courrielMembre[$x]'>Contacter</a></div>
+					  </div>
+					</div>
+			  	</div>
+			</div>';
+ 		 }
+	?>
+
+	<!--<div class="container-fluid wrapper1">
 	<div class="row">
 		<div class="col-md-6 d-flex justify-content-center">
 			<div class="equipeWrapper">
@@ -50,7 +76,8 @@ get_header();
 			</div>
 		</div>
 	</div>
-	</div>
+	</div>-->
+
 	<div class="container-fluid wrapper2">
 		<h1 class="conseilHeader">CONSEIL D’ADMINISTRATION</h1>
 		<div class="conseilWrapper">
