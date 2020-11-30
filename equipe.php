@@ -19,97 +19,95 @@ get_header();
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Equipe</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-	<div class="banniere equipe">
-        <h1 class="titrePage equipe">Équipe et conseil d’administration | Nature Québec</h1>
-        <img class="image banniere equipe" src="https://naturequebec.doubleryle.com/nq/wp-content/uploads/2020/11/banniere-equipe.jpg">
-	</div>
-	<div class="blocTexte equipe">
-        <p>Nature Québec peut compter sur l’appui de partenaires financiers. Ceux-ci permettent d’intervenir dans les différents axes de sa mission. Nous les remercions. Merci de faire une différence!</p>
-    </div>
-
-	<?php 
-		$nomMembre = the_field('nom_du_membre');
-		$titreMembre = the_field('titre_du_membre');
-		$telephoneMembre = the_field('telephone_du_membre');
-		$photoMembre = get_field('photo_du_membre');
-  		$urlMembre = $photoMembre['url'];
-		$altMembre = $photoMembre['alt'];
-		$courrielMembre = the_field('courriel_du_membre');
-
-		for($x=0;$x<$nomMembre;$x++) {
-  			echo '<div class="container-fluid wrapper1">
-			  <div class="row">
-				  <div class="col-md-6 d-flex justify-content-center">
-					  <div class="equipeWrapper">
-						  <img src='$urlMembre[$x]' alt='$photoMembre[$x]' class="imgEquipe img-fluid">
-						  <div class="nom">'$nomMembre[$x]'</div>
-						  <div class="titre">'$titreMembre[$x]'</div>
-						  <div class="contactPhone">'$telephoneMembre'</div>
-						  <div class="contactEmail"><a href="mailto:'$courrielMembre[$x]'>Contacter</a></div>
-					  </div>
-					</div>
-			  	</div>
-			</div>';
- 		 }
-	?>
-
-	<!--<div class="container-fluid wrapper1">
-	<div class="row">
-		<div class="col-md-6 d-flex justify-content-center">
-			<div class="equipeWrapper">
-				<img src="https://naturequebec.org/wp-content/uploads/2019/11/Alice_Anne_Simard-700x700.png" alt="Membre de l'équipe" class="imgEquipe img-fluid">
-				<div class="nom">Alice-Anne Simard</div>
-				<div class="titre">Directrice générale</div>
-				<div class="contactPhone">418 648-2104 poste 2071</div>
-				<div class="contactEmail"><a href="mailto:alice-anne.simard@naturequebec.org">Contacter</a></div>
-			</div>
+	<div class="banniereWrapper">
+		<div class="banniere equipe">
+			<h1 class="titrePage equipe">Équipe et conseil d’administration | Nature Québec</h1>
+			<img class="image banniere equipe" src="https://naturequebec.doubleryle.com/nq/wp-content/uploads/2020/11/banniere-equipe.jpg">
 		</div>
-		<div class="col-md-6 d-flex justify-content-center">
-			<div class="equipeWrapper">
-				<img src="https://naturequebec.org/wp-content/uploads/2019/11/Alice_Anne_Simard-700x700.png" alt="Membre de l'équipe" class="imgEquipe img-fluid">
-				<div class="nom">Alice-Anne Simard</div>
-				<div class="titre">Directrice générale</div>
-				<div class="contactPhone">418 648-2104 poste 2071</div>
-				<div class="contactEmail"><a href="mailto:alice-anne.simard@naturequebec.org">Contacter</a></div>
-			</div>
+		<div class="blocTexte equipe">
+			<p> Nature Québec peut compter sur l’appui de partenaires financiers. Ceux-ci permettent d’intervenir dans les différents axes de sa mission. Nous les remercions. Merci de faire une différence!</p>
 		</div>
 	</div>
-	</div>-->
+
+	<div class="container-fluid wrapper1">
+		<div class="row">
+			<?php
+				$arg = array (
+					'post_type' => 'membres_equipe',
+					'posts_per_page' => -1,
+					'order' => 'ASC',
+				);
+				$membre = new WP_Query($arg);
+				while ($membre->have_posts()) : $membre->the_post();
+
+				$nomMembre = get_field('nom_du_membre');
+				$titreMembre = get_field('titre_du_membre');
+				$telephoneMembre = get_field('telephone_du_membre');
+				$photoMembre = get_field('photo_du_membre');
+				$urlMembre = $photoMembre['url'];
+				$altMembre = $photoMembre['alt'];
+				$courrielMembre = get_field('courriel_du_membre');
+
+				echo '
+						<div class="col-md-6 d-flex justify-content-center">
+							<div class="equipeWrapper">
+								<img src="' . $photoMembre . '" alt="' . $altMembre . '" class="imgEquipe img-fluid">
+								<div class="nom">' . $nomMembre . '</div>
+								<div class="titre">' . $titreMembre . '</div>
+								<div class="contactPhone text-center">' . $telephoneMembre . '</div>
+								<div class="contactEmail"><a href="mailto:' . $courrielMembre . '">Contacter</a></div>
+							</div>
+					</div>';
+
+				?>
+				<?php endwhile; wp_reset_postdata(); ?>
+
+		</div>
+	</div>
 
 	<div class="container-fluid wrapper2">
 		<h1 class="conseilHeader">CONSEIL D’ADMINISTRATION</h1>
 		<div class="conseilWrapper">
 			<div class="row">
-				<div class="col-sm-4">
-					<img src="https://naturequebec.org/wp-content/uploads/2019/11/Alice_Anne_Simard-700x700.png" alt="Membre du conseil" class="imgConseil img-fluid">
-					<div class="conseilNom">Louise Gratton</div>
-					<div class="conseilTitre">Présidente</div>
-					<div class="conseilRepresente">Représentante des membres individuels</div>
-					</div>
-				<div class="col-sm-4">
-					<img src="https://naturequebec.org/wp-content/uploads/2019/11/Alice_Anne_Simard-700x700.png" alt="Membre du conseil" class="imgConseil img-fluid">
-					<div class="conseilNom">Louise Gratton</div>
-					<div class="conseilTitre">Présidente</div>
-					<div class="conseilRepresente">Représentante des membres individuels</div>
-					</div>
-				<div class="col-sm-4">
-					<img src="https://naturequebec.org/wp-content/uploads/2019/11/Alice_Anne_Simard-700x700.png" alt="Membre du conseil" class="imgConseil img-fluid">
-					<div class="conseilNom">Louise Gratton</div>
-					<div class="conseilTitre">Présidente</div>
-					<div class="conseilRepresente">Représentante des membres individuels</div>
-				</div>
+			<?php
+				$arg = array (
+					'post_type' => 'membres_conseil',
+					'posts_per_page' => -1,
+					'order' => 'ASC',
+				);
+				$membre = new WP_Query($arg);
+				while ($membre->have_posts()) : $membre->the_post();
+
+				$nomConseil = get_field('nom_membre_conseil');
+				$titreConseil = get_field('titre_membre_conseil');
+				$photoConseil = get_field('photo_membre_conseil');
+				$urlMembre = $photoMembre['url'];
+				$altConseil = $photoMembre['alt'];
+				$conseilRepresente = get_field('membre_conseil_represente');
+
+				echo '
+						<div class="col-sm-4 d-flex justify-content-center">
+							<div class="conseilWrapper">
+								<img src="' . $photoConseil . '" alt="' . $altConseil . '" class="imgConseil img-fluid">
+								<div class="conseilNom text-center">' . $nomConseil . '</div>
+								<div class="conseilTitre text-center">' . $titreConseil . '</div>
+								<div class="conseilRepresente text-center">' . $conseilRepresente . '</div>
+							</div>
+						</div>';
+			?>
+			<?php endwhile; wp_reset_postdata(); ?>
 			</div>
 		</div>
 	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
 </body>
 </html>
 
-<?php else : // Si aucune page correspondante n'a été trouvée ?>
-	<h2>Oh oh, la page recherchée est disparue</h2>
-	<img src="https://i.giphy.com/media/3o8doR2qGIXQDGCVoY/giphy.webp" alt="Page disparue">
-<?php endif; 
-
+<?php
 // Appel le fichier footer.php
 get_footer(); ?>
