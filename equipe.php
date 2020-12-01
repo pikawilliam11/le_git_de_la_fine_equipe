@@ -95,7 +95,7 @@ get_header();
 								<div class="conseilNom text-center">' . $nomConseil . '</div>
 								<div class="conseilTitre text-center">' . $titreConseil . '</div>
 								<div class="conseilRepresente text-center">' . $conseilRepresente . '</div>
-							</div>
+								</div>
 						</div>';
 			?>
 			<?php endwhile; wp_reset_postdata(); ?>

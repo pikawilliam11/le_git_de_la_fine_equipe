@@ -32,9 +32,38 @@ if ( have_posts() ) :
         <img class="imageBanniere nouvelles" src="<?php the_field('image_banniere') ?>">
     </div>
 
-    <div class="nouvelles">
-        <?php //echo do_shortcode("[pt_view id=228c9c4mjt]"); ?>
-        <?php echo do_shortcode("[pt_view id=85b7f5bwuj]"); ?>
+    <div class="nouvellesCampagnes">
+        <div class="pt-cv-wrapper">
+            <div class="pt-cv-view pt-cv-grid pt-cv-colsys" id="pt-cv-view-084000f6i9">
+                    <div data-id="pt-cv-page-1" class="pt-cv-page" data-cvc="3">
+                        <?php
+                        $arguments = array( // 👈 Tableau d'arguments
+                            'post_type' => 'campagnes',
+                            'posts_per_page' => 3
+                        );
+                        $campagnes = new WP_Query($arguments); // 👈 Utilisation
+                        while ($campagnes->have_posts()) : $campagnes->the_post(); 
+                        ?>
+                            <div class="col-md-4 col-sm-4 col-xs-12 pt-cv-content-item pt-cv-1-col">
+                                <div class="pt-cv-ifield">
+                                    <a href="<?php echo get_the_permalink() ?>" class="_self pt-cv-href-thumbnail pt-cv-thumb-default" target="_self"> 
+                                        <?php the_post_thumbnail('medium', array( 'class' => 'pt-cv-thumbnail img-none no-lazyload cvplazy' )) ?>
+                                    </a>
+                                    <h4 class="pt-cv-title">
+                                        <a href="<?php echo get_the_permalink() ?>" class="_self" target="_self"><?php the_field("sous-titre");?></a>
+                                    </h4>
+                                    <div class="pt-cv-content">
+                                        <a href="<?php echo get_the_permalink() ?>" class="_self pt-cv-readmore btn btn-success" target="_self">VOIR LA CAMPAGNE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php
+                        endwhile; 
+                        wp_reset_postdata(); 
+                        ?>
+                  </div>
+            </div>
+        </div>
     </div>
 
     
