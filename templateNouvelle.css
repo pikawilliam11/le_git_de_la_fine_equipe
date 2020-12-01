@@ -23,6 +23,10 @@
 </body>
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: #E7E3E0;
@@ -32,16 +36,25 @@ body {
 .essaie {
     display: flex;
     width: 100vw;
-    justify-content: space-around;
-}
-
-.Image {
-    width: 20%;
-    display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
-.Titre {
+.images {
+    width: 100vw;
+    position: absolute;
+}
+
+.Image {
+  width: 50%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  transform: translateX(50%);
+  
+}
+
+
+.titre {
     margin: 5%;
     font-size: 60px;
     font-family: azo sans; 
@@ -50,22 +63,81 @@ body {
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
 }
 
+.datePublication {
+  position: absolute;
+  left: 5%;
+  top: 90%;
+}
+
 .partie1 {
     display: flex;
     align-items: center;
     position: relative;
-    font-family: azo sans;   
+    font-family: azo sans; 
+    flex-direction: column;  
+    font-size: 20px;
 }
 
+
+
 .texte {
-    width: 60%; 
+    width: 80%; 
+    height: 100%; 
     display: flex;
     justify-content: center;
+    color: white;
+    background-color: rgba(9, 23, 29, 0.7);
+    box-shadow: 3px 3px 7px #0f1b24;
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    z-index: 1;
     position: relative;
-    margin-left: 2%;
+    margin-left: 10%;
+  
     
 
 }
+
+.auteurs{
+  display: flex;
+  margin-top: 5%;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+
+.auteur1{
+  display: flex;
+  flex-direction: row;
+  position:relative;
+  align-items: center;
+  
+}
+
+.nomAuteur1 {
+  transform: translateX(175%);
+  position: absolute;
+}
+
+
+.auteur2{
+  display: flex;
+  flex-direction: row-reverse;
+  position:relative;
+  align-items: center;
+}
+
+.nomAuteur2 {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 582px) { 
+  
+  .titre {
+    font-size: 35px;
+}
+
+ }
