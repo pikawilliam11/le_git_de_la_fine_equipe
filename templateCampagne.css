@@ -1,0 +1,84 @@
+/*<body>
+    <div class="sousTitre"> <?php the_field('sous-titre'); ?> </div>
+    <div class="texte1"> <?php the_field('texte_1'); ?> </div>
+    <div class="texte2"> <?php the_field('texte_2'); ?> </div>
+    <img src="<?php the_field('image_1'); ?>" alt="" class="Image1">
+    <img src="<?php the_field('image_2'); ?>" alt="" class="Image2">
+    <img src="<?php the_field('image_3'); ?>" alt="" class="Image3">
+    
+               
+</body>*/
+
+body {
+    margin: 0;
+    background-color: #E7E3E0;
+}
+
+.Image1 {
+    width: 100vw;
+}
+
+.sousTitre {
+    margin: 5%;
+    font-size: 60px;
+    font-family: azo sans; 
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+.partie1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column; 
+    font-family: azo sans;   
+}
+
+.texte1 {
+    width: 75%; 
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(9, 23, 29, 0.7);
+    box-shadow: 3px 3px 7px #0f1b24;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.Image2 {
+    width: 50%;
+    margin: 5%
+}
+
+.partie2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    font-family: azo sans; 
+}
+
+.texte2 {
+    width: 75%; 
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(9, 23, 29, 0.7);
+    box-shadow: 3px 3px 7px #0f1b24;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.Image3 {
+    width: 50%;
+    margin: 5%
+}

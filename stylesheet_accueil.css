@@ -9,7 +9,16 @@ html, body {
     height: 100vh; 
     position:relative;
   }
-  .imageBanniere.accueil{
+  .swiper-container{
+    width: 100vw;
+    height: 100vh; 
+    position:absolute;
+  }
+  .swiper-slide{
+    width: 100vw;
+    height: 100vh; 
+  }
+  .imageBanniere{
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -22,6 +31,7 @@ html, body {
     font-size: 30px;
     font-family: azo sans; 
     font-weight: 500;
+    z-index: 2;
   }
   .slogan h2{
     background-color: rgba(8, 13, 30, 0.8);
@@ -153,7 +163,7 @@ html, body {
 
 
 
-.nouvelles{
+.nouvellesCampagnes{
     width: 100vw;
     height: 100vh; 
     position: relative;
@@ -162,13 +172,14 @@ html, body {
 }
 .pt-cv-page{
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .pt-cv-ifield img{
   width: 80%;
+  height: auto;
   margin-right: 10%;
   margin-left: 10%;
 }
@@ -177,6 +188,10 @@ html, body {
   padding: 20px 20px 50px 20px;
   background-color: white;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+.col-md-4.col-sm-4.col-xs-12.pt-cv-content-item.pt-cv-1-col:hover{
+  width: 27%;
+  transition-duration: 0.3s;
 }
 .col-md-4.col-sm-4.col-xs-12.pt-cv-content-item.pt-cv-1-col h4{
   text-align: center;
@@ -358,7 +373,7 @@ html, body {
   }
 }
 @media screen and (max-width: 1400px) {
-  .nouvelles{
+  .nouvellesCampagnes{
     height: 80vh;
   }
 
@@ -449,6 +464,11 @@ html, body {
     margin-bottom: 2%;
     margin-top: 2%;
   }
+  .col-md-4.col-sm-4.col-xs-12.pt-cv-content-item.pt-cv-1-col:hover{
+    width: 92%;
+    transition-duration: 0.3s;
+  }
+  
   .col-md-4.col-sm-4.col-xs-12.pt-cv-content-item.pt-cv-1-col h4{
     text-align: start;
     font-weight: 700;
@@ -594,9 +614,11 @@ html, body {
 
 
 @media screen and (max-width: 550px) {
-
+  .nouvellesCampagnes{
+    height: 100vh;
+  }
   .pt-cv-ifield img{
-    width: 70%;
+    width: 100%;
     border: solid 10px #ffffff;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
   }
@@ -610,6 +632,10 @@ html, body {
     justify-content: center;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.0);
   }
+  .col-md-4.col-sm-4.col-xs-12.pt-cv-content-item.pt-cv-1-col:hover{
+    width: 102%;
+    transition-duration: 0.3s;
+  }
   .col-md-4.col-sm-4.col-xs-12.pt-cv-content-item.pt-cv-1-col h4{
     text-align: center;
     font-weight: 700;
@@ -617,11 +643,12 @@ html, body {
     color: black;
     text-align: center;
     top:50%;
-    font-size: 20px;
+    width:189px;
+    font-size: 18px;
     position: absolute;
-    left: 47%;
+    left: 50%;
     transform-origin: center;
-    transform: translate(-43%, -50%);
+    transform: translate(-40%, -50%);
     background-color: rgba(20, 20, 20, 0.8);
     padding: 10px;
 
@@ -644,6 +671,9 @@ html, body {
   }
   .blocTexteDon{
     height: 60%;
+  }
+  .pt-cv-title{
+    width: 100%;
   }
 }
 

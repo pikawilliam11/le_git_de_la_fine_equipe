@@ -28,12 +28,32 @@ if ( have_posts() ) :
 </head>
 <body>
     <div class="banniere accueil">
-        <img class="imageBanniere accueil" src="https://i.imgur.com/KNdoYch.jpg">
         <div class="slogan">
             <div class="mot1"><h2>Sensibiliser</h2></div>
             <div class="mot2"><h2>Mobiliser</h2></div>
             <div class="mot3"><h2>Agir</h2></div>
         </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="imageBanniere" src="https://i.imgur.com/KNdoYch.jpg">
+                </div> 
+                <div class="swiper-slide">
+                    <img class="imageBanniere" src="https://i.imgur.com/Kw4xspw.jpg">
+                </div> 
+                <div class="swiper-slide">
+                    <img class="imageBanniere" src="https://i.imgur.com/UUfJZ6H.jpg">
+                </div> 
+                <div class="swiper-slide">
+                    <img class="imageBanniere" src="https://i.imgur.com/8SxTDzB.jpg">
+                </div> 
+                <div class="swiper-slide">
+                    <img class="imageBanniere" src="https://i.imgur.com/zt3WwOq.jpg">
+                </div> 
+            </div> 
+        </div> 
+        
+        
     </div>
 
     <div class="resume">
@@ -107,7 +127,37 @@ if ( have_posts() ) :
     ?>
 
     <div class="nouvelles">
-        <?php echo do_shortcode("[pt_view id=85b7f5bwuj]"); ?>
+        <div class="pt-cv-wrapper">
+            <div class="pt-cv-view pt-cv-grid pt-cv-colsys" id="pt-cv-view-acc5d10ba4">
+                    <div data-id="pt-cv-page-1" class="pt-cv-page" data-cvc="3">
+        <?php
+        $arguments = array( // 👈 Tableau d'arguments
+            'post_type' => 'nouvelle',
+            'posts_per_page' => 3
+        );
+        $nouvelles = new WP_Query($arguments); // 👈 Utilisation
+        while ($nouvelles->have_posts()) : $nouvelles->the_post(); 
+        ?>
+            <div class="col-md-4 col-sm-4 col-xs-12 pt-cv-content-item pt-cv-1-col">
+                <div class="pt-cv-ifield">
+                    <a href="<?php echo get_the_permalink() ?>" class="_self pt-cv-href-thumbnail pt-cv-thumb-default" target="_self"> 
+                        <?php the_post_thumbnail('medium', array( 'class' => 'pt-cv-thumbnail img-none no-lazyload cvplazy' )) ?>
+                    </a>
+                    <h4 class="pt-cv-title">
+                        <a href="<?php echo get_the_permalink() ?>" class="_self" target="_self"><?php the_field("titre");?></a>
+                    </h4>
+                    <div class="pt-cv-content">
+                        <a href="<?php echo get_the_permalink() ?>" class="_self pt-cv-readmore btn btn-success" target="_self">LIRE LA NOUVELLE</a>
+                    </div>
+                </div>
+            </div>
+        <?php
+        endwhile; 
+        wp_reset_postdata(); 
+        ?>
+                  </div>
+            </div>
+        </div>
     </div>
 
     <div class="donation">
@@ -141,8 +191,8 @@ if ( have_posts() ) :
         </div>
 
     </div>
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script>
 <?php endwhile; // Fermeture de la boucle ?>
 
 
