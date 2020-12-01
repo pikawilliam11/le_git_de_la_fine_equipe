@@ -1,31 +1,24 @@
-
-
-
+html{
+  overflow-x:hidden;
+}
 body {
     margin:0;
     background-color: #E7E3E0;
-    width: 100vw;
-    height: 100vw;
-    overflow-x:hidden;
   }
   
   
   .banniereJay {
     width: 100vw;
     height: 60vh;
-    object-fit: cover;
     display: flex;
     justify-content: center;
-    position: relative;
-
-
-    
-    
+    position: relative; 
   }
   
   .imageBanniere {
     width: 100vw;
     height: 100%;
+    object-fit: cover;
   }
   
   .banniereTitre {
@@ -36,6 +29,7 @@ body {
     font-family: azo sans; 
     font-weight: 600;
     font-style: normal;
+    text-align: center;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
     top:45%;
     transform: translateY(-55%); 
@@ -47,7 +41,7 @@ body {
     transform: translateY(-50%); 
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     color: white;
     background-color: rgba(9, 23, 29, 0.7);
     box-shadow: 3px 3px 7px #0f1b24;
@@ -68,36 +62,29 @@ body {
   }
   
   .savoir{
-    font-size: 18px;
+    font-size:18px;
     font-family: azo sans; 
     font-weight: 600;
     font-style: normal;
-    position: relative;
-    width: 200px;
-    height: 50px;
-    margin-left: 20px;
-    color: white;
+    position:relative;
+    margin-left:20px;
+    color:white;
     border: 4px solid white;
     background: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding:10px 20px;
+    text-decoration: none;
+    text-align: center;
   }
   
-  .savoir:hover {
-    background-color: rgba(255, 255, 255, 0.2); 
-    border: 4px solid white;
+  .savoir:active{
+    text-decoration: none;
+    color: white;
+    background-color: black;
   }
-  
-  .savoir a{
-  color:white;
-  text-decoration:none;
-  }
-  
-  .savoir a:visited{
-  color:white;
-  text-decoration:none;
+  .savoir:hover{
+    color: black;
+    background-color: white;
+    text-decoration: none;
   }
   
   
@@ -106,41 +93,39 @@ body {
     height: 40vh;
     position: relative;
     display: flex;
+    justify-content: space-evenly;
     font-family: azo sans; 
     background-color: bluergba(255, 255, 255, 0.2);
-    transform: translateY(10%);
     
     
   }
   
   .proposTexte h3 {
     font-size: 35px;
-    width: 100%;
-    position: absolute;
-    transform: translate(25%,-200%);
-    
-    
+    text-align: center;
   }
   
   .proposTexte{
-    width: 60%;
-    font-size: 20px;
-    transform: translate(10%,20%);
+    width: 50%;
+    font-size: 18px;
   }
-  
-  
-  
+ 
   .imagePropos {
-    width: 25%;
-    height: 70%;
-    object-fit: cover;
-    margin-top: 1%;
-    margin-left: 3%;
+    width: 20%;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .grouperTerciere{
+    height:100% ;
+    width: 100vw;
+    position: relative;
   }
   
   .imageVisionMission {
     width: 100vw;
     height: 100vh;
+    object-fit: cover;
   }
   
   .action{
@@ -151,11 +136,10 @@ body {
     color: white;
     background-color: rgba(9, 23, 29, 0.7);
     box-shadow: 3px 3px 7px #0f1b24;
-    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    justify-content: space-around;
-    top:165vh;
+    bottom:10%;
+    justify-content: space-evenly;
     font-family: azo sans; 
   }
   
@@ -166,21 +150,22 @@ body {
     font-family: azo sans; 
     font-weight: 400;
     font-style: normal;
-    margin-right: 20px;
-    top: 15px;
+    text-align: center;
   }
   
   .actionTexte h3 {
     font-size: 35px;
     width: 100%;
-    position: absolute;
-    transform: translate(35%,-200%);
-    padding-bottom: 5px;
+    position: relative;
+    text-align: center;
     
   }
   
   .cible {
-    width: 130%;
+    width: 120%;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
   }
   
   .vision{
@@ -191,14 +176,20 @@ body {
     color: white;
     background-color: rgba(9, 23, 29, 0.7);
     box-shadow: 3px 3px 7px #0f1b24;
-    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    top:115vh;
-    justify-content: space-around;
+    top:10%;
+    justify-content: space-evenly;
     font-family: azo sans; 
   }
   
+  .visionTexte h3 {
+    font-size: 35px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+
   .visionTexte {
     max-width: 700px;
     position: relative;
@@ -206,39 +197,39 @@ body {
     font-family: azo sans; 
     font-weight: 400;
     font-style: normal;
-    margin-right: 40px;
-    top: 5px;
-  }
-  
-  .visionTexte h3 {
-    font-size: 35px;
-    width: 100%;
-    position: absolute;
-    transform: translate(37%,-200%);
-    padding-bottom: 5px;
+    text-align: center;
   }
   
   .oeil {
     width: 120%;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
   }
   
   @media screen and (max-width: 1195px) {
+    .imagePropos {
+      width: 40%;
+    }
+    .proposTexte h3 {
+      font-size: 25px;
+    }
     .proposTexte{
-      transform: translate(10%,10%);
+      width: 50%;
+      font-size: 14px;
     }
-    
-    .aPropos {
-      transform: scale(0.8);
+    .action{
+      justify-content: center;
+
+
     }
-    .aPropos h3 {
-      transform: translate(0%, -250%);
-    }
-    
-    .actionTexte {
-      left: 5%;
-    }
-     .visionTexte {
-      left: 5%;
+    .actionTexte, .visionTexte{
+      position: absolute;
+      max-width: none;
+      text-align: start;
+      width: 80%;
+      left: 10%;
+      right: 10%;
     }
     
     .decouvrirTexte {
@@ -271,72 +262,81 @@ body {
     margin-right: 0;
     top: 5px;
   }
-  
-   .savoir{
-      position: absolute;
-      bottom: -25%;
-      transform: translate(-50%, 90%);
-      
-      
-    }
-    .enteteValeur {
-      display: flex;
-      justify-content: center;
-    }
-  
-    
+  .enteteValeur{
+    position: absolute;
+    bottom:-100px;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .savoir{
+    margin-left:0;
+    right: 0;
+  }
     .imagePropos {
       width: 0;
     }
-    
     .proposTexte{
-      font-size: 15px;
-      width: 100%;
-      transform: translate(0,15%);
+      font-size: 14px;
+      width: 80%;
+      margin: 10% 0%;
     }
     .proposTexte h3{
     font-size: 25px;
     width: 100%;
-    position: absolute;
-    transform: translate(0%,-250%);
+    position: relative;
     }
     
-    .aPropos {
-      transform: scale(0.8);
-    }
   }
     .decouvrir{
     transform: translateY(-50%); 
     height: 10%;
   }
-    .cible {
+    .cible,  .oeil{
       display: none;
     }
-    
-    .oeil {
-      display: none;
-    }
-    
-    .visionTexte {
-      left: 5%;
+
+    .visionTexte, .actionTexte{
+      left: 10%;
+      right: 10%;
       font-size: 16px;
-      transform: translateY(10%);
+      width: 80%;
+      position: absolute;
     }
-    
-    .visionTexte h3 {
-      left: -9%;
+  }
+
+  @media screen and (max-width: 420px) {
+    .aPropos{
+      height: 60%;
     }
-    
-    .actionTexte {
-      left: 0%;
-      font-size: 16px;
+    .proposTexte{
+      font-size: 14px;
       width: 90%;
-      transform: translateY(10%);
+      margin: 5% 0%;
+    }
+    .proposTexte h3{
+    font-size: 20px;
+    width: 100%;
+    position: relative;
     }
     
-    .actionTexte h3 {
-      left: -5%;
-      top: 5%;
+    .vision, .action{
+      height: 35%;    
+      align-items: center;
     }
-    
-    
+    .visionTexte h3, .actionTexte h3{
+      font-size: 25px;
+    }
+    .visionTexte, .actionTexte{
+      left: 10%;
+      right: 10%;
+      font-size: 14px;
+      width: 80%;
+      position: absolute;
+    }
+
+  }

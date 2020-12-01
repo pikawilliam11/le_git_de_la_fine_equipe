@@ -29,7 +29,7 @@
   </div>
   <div class="blocTexte partenaire">
       <p><?php the_field('bloc_texte') ?></p>
-    <button class="devenirMembre">Devenir membre</button>
+    <a class="devenirMembre" href="https://naturequebec.doubleryle.com/nq/contact/" target="_blank">Devenir membre</a>
   </div>
   
   

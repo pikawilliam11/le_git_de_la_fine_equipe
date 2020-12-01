@@ -1,5 +1,5 @@
 <?php 
-  /*Template Name: Partenaire*/
+  /*Template Name: Mission*/
 ?>
 
 <?php
@@ -30,11 +30,7 @@
         Vous voulez en savoir plus sur Nature Québec? Téléchargez notre dépliant explicatif pour connaitre nos 4 grands domaines d’action.
      </div>
     <div class="enteteValeur">
-      <button class="savoir">
-        <a href="https://naturequebec.org/wp-content/uploads/2020/07/Depliant_NQ-1.pdf" target="_blank" >
-      En savoir plus
-         </a>
-      </button>
+        <a class="savoir" href="https://naturequebec.org/wp-content/uploads/2020/07/Depliant_NQ-1.pdf" target="_blank" >En savoir plus</a>
     </div> 
   </div>
  </div>
@@ -52,35 +48,36 @@ Nature Québec souscrit aux objectifs de la Stratégie mondiale de conservation 
   </div>
   
  <div class="grouperTerciere">
-  <img src="https://naturequebec.doubleryle.com/nq/wp-content/uploads/2020/11/sous-leau-scaled.jpg" alt="laBonneEau" class="imageVisionMission">
-   
-   <div class="vision">
-    <div class="imageVision">
-      <img src="https://naturequebec.doubleryle.com/nq/wp-content/uploads/2020/11/oeil.png" alt="oeil" class="oeil">
+    <img src="https://naturequebec.doubleryle.com/nq/wp-content/uploads/2020/11/sous-leau-scaled.jpg" alt="laBonneEau" class="imageVisionMission">
+    
+    
+    <div class="vision">
+      <div class="imageVision">
+        <img src="https://naturequebec.doubleryle.com/nq/wp-content/uploads/2020/11/oeil.png" alt="oeil" class="oeil">
+      </div>
+      <div class="visionTexte">
+        <h3>Notre Vision</h3>     
+        Nature Québec agit en vue d’une société plus juste, à faible empreinte écologique et climatique, solidaire du reste de la planète. L’organisme oriente ses actions pour que le Québec aime ses milieux naturels, en ville comme en région, les protège et les reconnaisse comme essentiels à son épanouissement.
+      </div>
     </div>
-    <div class="visionTexte">
-  <h3>Notre Vision</h3>     
-Nature Québec agit en vue d’une société plus juste, à faible empreinte écologique et climatique, solidaire du reste de la planète. L’organisme oriente ses actions pour que le Québec aime ses milieux naturels, en ville comme en région, les protège et les reconnaisse comme essentiels à son épanouissement.
+    
+    <div class="action">
+      <div class="imageAction">
+        <img src="https://naturequebec.doubleryle.com/nq/wp-content/uploads/2020/11/cible.png" alt="cible" class="cible">
+      </div>
+      <div class="actionTexte">
+        <h3>Nos Actions</h3>
+        Nature Québec encourage la mobilisation citoyenne, intervient dans le débat public, informe, sensibilise et réalise des projets afin que notre société:
+        <br>
+        - Valorise la biodiversité
+        <br>
+        – Protège les milieux naturels et les espèces
+        <br>
+        – Favorise le contact avec la nature
+        <br>
+        – Utilise de façon durable les ressources
+      </div>
     </div>
-  </div>
-  
-  <div class="action">
-    <div class="imageAction">
-      <img src="https://naturequebec.doubleryle.com/nq/wp-content/uploads/2020/11/cible.png" alt="cible" class="cible">
-    </div>
-    <div class="actionTexte">
- <h3>Nos Actions</h3>
-Nature Québec encourage la mobilisation citoyenne, intervient dans le débat public, informe, sensibilise et réalise des projets afin que notre société:
-<br>
- - Valorise la biodiversité
-<br>
- – Protège les milieux naturels et les espèces
-<br>
-– Favorise le contact avec la nature
-<br>
-– Utilise de façon durable les ressources
-    </div>
-  </div>
 </div>
 
 
